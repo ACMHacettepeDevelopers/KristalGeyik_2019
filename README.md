@@ -1,2 +1,2 @@
 # KristalGeyik_2019
-Lorem Ipsum dolor sit Diyarbakir
+Lorem Ipsum dolor sit Diyarbekir
