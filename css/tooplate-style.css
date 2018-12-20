@@ -13,9 +13,10 @@ body {
 }
 
 #preload-01 { background: url(../img/constructive_bg_01.jpg) no-repeat -9999px -9999px; }
-#preload-02 { background: url(../img/constructive_bg_02.jpg) no-repeat -9999px -9999px; }
-#preload-03 { background: url(../img/constructive_bg_03.jpg) no-repeat -9999px -9999px; }
-#preload-04 { background: url(../img/constructive_bg_04.jpg) no-repeat -9999px -9999px; }
+#preload-02 { background: url(../img/constructive_bg_01.jpg) no-repeat -9999px -9999px; }
+#preload-03 { background: url(../img/constructive_bg_01.jpg) no-repeat -9999px -9999px; }
+#preload-04 { background: url(../img/constructive_bg_01.jpg) no-repeat -9999px -9999px; }
+
 
 ul { margin: 0; padding: 0; }
 
@@ -40,6 +41,23 @@ p {
 p:last-child { margin-bottom: 0; }
 /*Main End*/
 
+
+
+/*Section -1 Start*/
+
+#brand-icon{
+    max-width: 1000px;
+    width: 100%;
+    height: 310px;
+    background: url("../img/brand.png") no-repeat;
+    -webkit-background-size: contain;
+    background-size: contain;
+}
+/*Section -1 End*/
+/*Section -1*/
+/*Section -1*/
+/*Section -1
+/*Section -1*/
 /*Sidebar Start*/
 #logo{
     width: 100%;
@@ -126,12 +144,12 @@ p:last-child { margin-bottom: 0; }
 .tm-content {
     display: -webkit-box;
     display: -ms-flexbox;
-    display: flex;
-    -ms-flex-item-align: stretch;
-        align-self: stretch;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-            align-items: center;
+    display: block;
+    /*-ms-flex-item-align: stretch;*/
+        /*align-self: stretch;*/
+    /*-webkit-box-align: center;*/
+    /*-ms-flex-align: center;*/
+            /*align-items: center;*/
     padding: 50px 10%;
     width: 100%;
     position: relative;
@@ -177,14 +195,14 @@ p:last-child { margin-bottom: 0; }
 .tm-main-nav a:focus,
 .tm-main-nav a.active {
     background-image: url(../img/nav-item-highlight.png);
-    color: #33ccff;
+    color: #FDE199;
     text-decoration: none;    
 }
 
 .tm-main-nav a:hover .tm-nav-fa-icon,
 .tm-main-nav a:focus .tm-nav-fa-icon,
 .tm-main-nav a.active .tm-nav-fa-icon {
-    border-color: #33ccff;
+    border-color: #FDE199;
 }
 
 .fa-menu {
@@ -204,8 +222,8 @@ p:last-child { margin-bottom: 0; }
 
 .tm-btn:hover,
 .tm-btn:focus {
-    color: #33ccff;
-    border-color: #33ccff;
+    color: #FDE199;
+    border-color: #FDE199;
 }
 
 .tm-btn-submit {
@@ -229,7 +247,10 @@ p:last-child { margin-bottom: 0; }
 .col-md-6.tm-contact-col { margin-bottom: 0; }
 
 .tm-img-slider { max-width: 940px; }
-#tm-section-1 { max-width: 700px; }
+#tm-section-1 {
+    max-width: 1000px;
+    width: 100%;
+}
 
 .tm-icon-media {
   margin-right: 1.5rem;
@@ -355,7 +376,7 @@ footer a { color: white; }
         padding: 10px 15px;
         background: #000000c4;
         border: 1px solid;
-        color: #33ccff;
+        color: #FDE199;
         cursor: pointer;
         margin-top: 4px;
         margin-left: 4px;
