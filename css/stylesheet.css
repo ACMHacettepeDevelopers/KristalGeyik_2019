@@ -1,0 +1,47 @@
+
+
+/*section3 - start*/
+.partner-logo{
+  max-width: 250px;
+  width: 100%;
+  height: 250px;
+  margin: 0 auto;
+
+}
+#otk{
+  background: url("../img/partners/otk.png") no-repeat center;
+  background-size: contain;
+}
+#acm{
+  background: url("../img/partners/acm.png") no-repeat center;
+  background-size: contain;
+}
+#giyat{
+  background: url("../img/partners/giyat.png") no-repeat center;
+  background-size: contain;
+}
+#gmt{
+  background: url("../img/partners/gmt.png") no-repeat center;
+  background-size: contain;
+}
+#hends{
+  background: url("../img/partners/hends.png") no-repeat center;
+  background-size: contain;
+}
+#hit{
+  background: url("../img/partners/hit.png") no-repeat center;
+  background-size: contain;
+}
+#hot{
+  background: url("../img/partners/hot.png") no-repeat center;
+  background-size: contain;
+}
+#ieee{
+  background: url("../img/partners/ieee.png") no-repeat center;
+  background-size: contain;
+}
+
+
+
+
+/*section3 - end */
