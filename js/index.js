@@ -20,7 +20,7 @@ function setupCarousel() {
         if(windowWidth < 640) {
             slider.slick({
                 dots: true,
-                infinite: false,
+                infinite: true,
                 slidesToShow: 1,
                 slidesToScroll: 1
             });
@@ -28,7 +28,7 @@ function setupCarousel() {
         else if(windowWidth < 992) {
             slider.slick({
                 dots: true,
-                infinite: false,
+                infinite: true,
                 slidesToShow: 2,
                 slidesToScroll: 1
             });
@@ -37,7 +37,7 @@ function setupCarousel() {
             // Slick carousel
             slider.slick({
                 dots: true,
-                infinite: false,
+                infinite: true,
                 slidesToShow: 3,
                 slidesToScroll: 2
             });
@@ -117,6 +117,7 @@ function setupFooter() {
     }
 }
 
+
 // Everything is loaded including images.
 $(window).on("load", function(){
 
@@ -163,4 +164,13 @@ $(window).on("load", function(){
             setupFooter();
         });
     }
+});
+
+$(document).ready(function () {
+    console.log($('.tm-img-container').find("a"));
+    $('.tm-img-container').find("a").css('width', "203px");
+
+    $("[data-toggle=collapse]").on('click', function () {
+       setupCarousel();
+    });
 });
