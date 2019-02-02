@@ -1,5 +1,28 @@
 
 
+/*General CSS*/
+
+.center-top{
+  top: 50% !important;
+  transform: translateY(-50%) !important;
+}
+
+/*General CSS End*/
+
+
+
+
+
+/*section2 - start*/
+
+.card{
+  background: #6b0003;
+  border: 1px solid #fff;
+}
+.card .btn-link{
+  color: #fff;
+}
+/*section2 - end*/
 /*section3 - start*/
 .partner-logo{
   max-width: 250px;
@@ -44,4 +67,13 @@
 
 
 
+/*section3 - end */
+/*section4 - start */
+
+#tm-section-4 .tm-contact-box-pad{
+  border-radius: 8px;
+  background-color: rgba(155, 50, 50, 0.45);
+  border: 1px solid #fff;
+  text-align: center;
+}
 /*section3 - end */

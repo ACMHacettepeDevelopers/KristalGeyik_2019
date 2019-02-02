@@ -6,10 +6,7 @@ var currentPageID = "#tm-section-1";
 function setupCarousel() {
 
     // If current page isn't Carousel page, don't do anything.
-    if($('#tm-section-2').css('display') == "none") {
-    }
-    else {	// If current page is Carousel page, set up the Carousel.
-
+    if($('#tm-section-2').css('display') !== "none") {
         var slider = $('.tm-img-slider');
         var windowWidth = $(window).width();
 
@@ -167,10 +164,24 @@ $(window).on("load", function(){
 });
 
 $(document).ready(function () {
-    console.log($('.tm-img-container').find("a"));
-    $('.tm-img-container').find("a").css('width', "203px");
-
+    //setup all carousel when collapse clicked
     $("[data-toggle=collapse]").on('click', function () {
        setupCarousel();
+    });
+
+
+    // $('body').find("a[href='#contact']").on('click', function () {
+    //
+    //     $('body').find(".tm-content").addClass('center-top');
+    // });
+
+    // center items
+    $('body').find("a.scrolly").on('click', function () {
+        var url =  this.href.split('#')[1];
+        if(url === 'contact'){
+            $('.tm-content').addClass('center-top');
+        }else{
+            $('.tm-content').removeClass('center-top');
+        }
     });
 });

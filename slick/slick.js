@@ -853,7 +853,7 @@
 
         $('.slick-cloned', _.$slider).detach();
 
-        if (_.$dots) {i
+        if (_.$dots) {
             _.$dots.remove();
         }
 

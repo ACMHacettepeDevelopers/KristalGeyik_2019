@@ -49,13 +49,16 @@
 				<nav id="tmMainNav" class="tm-main-nav">
 					<ul>
 						<li>
-							<div id="logo"></div>
-						</li><li>
-						<a href="#intros" id="tmNavLink1" class="scrolly active" data-bg-img="constructive_bg_01.jpg" data-page="#tm-section-1">
-							<i class="fas fa-home tm-nav-fa-icon"></i>
-							<span>Kristal Geyik 2019</span>
-						</a>
-					</li>
+							<a href="#intros" class="scrolly" data-bg-img="constructive_bg_01.jpg" data-page="#tm-section-1">
+								<div id="logo" data-page="#tm-section-1"></div>
+							</a>
+						</li>
+						<li>
+							<a href="#intros" id="tmNavLink1" class="scrolly active" data-bg-img="constructive_bg_01.jpg" data-page="#tm-section-1">
+								<i class="fas fa-home tm-nav-fa-icon"></i>
+								<span>Kristal Geyik 2019</span>
+							</a>
+						</li>
 						<li>
 							<a href="#intro" id="tmNavLink0" class="scrolly" data-bg-img="constructive_bg_01.jpg" data-page="#tm-section-0">
 								<i class="fas fa-home tm-nav-fa-icon"></i>
@@ -84,6 +87,9 @@
 					</ul>
 				</nav>
 			</div>
+			<footer class="footer-link">
+				<p class="tm-copyright-text">Copyright &copy; 2019 Developed by <a href="https://linkedin.com/in/k-berkan-sezer-316763148/">Berkan Sezer</a></p>
+			</footer>
 		</div>
 
 		<div class="col-xl-9 col-lg-8 col-md-12 col-sm-12 tm-content">
@@ -114,9 +120,20 @@
 			<!-- section 1 -->
 			<section id="tm-section-0" class="tm-section">
 				<div class="ml-auto">
-					<header class="mb-4"><h1 class="tm-text-shadow">dflsdfksdlfkdsfl Design</h1></header>
-					<p class="mb-5 tm-font-big">Aenean fermentum vestibulum ipsum, ut pretium erat sodales sodales. Pellentesque quis orci vitae dui commodo sodales et ut quam. Etiam vitae egestas purus, ut malesuada enim.</p>
-					<a href="#" class="btn tm-btn tm-font-big" data-nav-link="#tmNavLink2">Continue...</a>
+					<header class="mb-4"><h1 class="tm-text-shadow">Ortaya çıkış ve misyon</h1></header>
+					<p class="mb-5 tm-font-big">
+						Hacettepe Üniversitesi, ilk kez 2018 yılında, Hacettepe Üniversitesi öğrencilerinin
+						kullandıkları oylar sonucunda sektördeki en başarılı şirket veya kişileri seçip bu şirket veya kişileri
+						Hacettepe Üniversitesi öğrencileriyle bir araya getirmek amacıyla "Kristal Geyik Ödülleri" etkinliğini organize etmiştir.
+						2019 yılında ikinci kez gerçekleşecek olan bu etkinlik yenilikçi, gelişmeye açık ve interaktif olmasından
+						ötürü öğrenciler tarafından büyük bir ilgi görmektedir.
+					</p>
+					<p class="mb-5 tm-font-big">
+						Üniversitemizin ve organizasyon komitemizin vizyonları doğrultusunda ülkemizin başarılı kişilerinin ve köklü
+						şirketlerinin  katılımı ile büyük önem arz eden "Kristal Geyik Ödülleri" etkinliği Hacettepe Üniversitesi
+						Beytepe Kültür ve Kongre Merkezi’nde 29/03/2019 tarihinde gerçekleştirilecektir.
+					</p>
+					<!--<a href="#" class="btn tm-btn tm-font-big" data-nav-link="#tmNavLink2">Continue...</a>-->
 					<!-- data-nav-link holds the ID of nav item, which means this link should behave the same as that nav item  -->
 				</div>
 			</section>
@@ -255,12 +272,12 @@
 			<!-- section 4 -->
 			<section id="tm-section-4" class="tm-section">
 				<div class="tm-bg-transparent-black tm-contact-box-pad">
-					<div class="row mb-4">
+					<div class="row">
 						<div class="col-sm-12">
-							<header><h2 class="tm-text-shadow">Contact Us</h2></header>
+							<header><h2 class="tm-text-shadow " style="margin: 0 !important;">Oy verme sistemimiz çok yakında aktif olacaktır</h2></header>
 						</div>
 					</div>
-					<div class="row tm-page-4-content">
+					<!--div class="row tm-page-4-content">
 						<div class="col-md-6 col-sm-12 tm-contact-col">
 							<div class="contact_message">
 								<form action="#contact" method="post" class="contact-form">
@@ -288,7 +305,7 @@
 								</address>
 							</div>
 						</div>
-					</div>
+					</div>-->
 				</div>
 			</section>
 
@@ -296,11 +313,10 @@
 
 
 		</div>	<!-- .tm-content -->
-		<footer class="footer-link">
-			<p class="tm-copyright-text">Copyright &copy; 2019 Developed by <a href="https://linkedin.com/in/k-berkan-sezer-316763148/">Berkan Sezer</a></p>
-		</footer>
+
 	</div>	<!-- row -->
 </div>
+
 <div id="preload-01"></div>
 <div id="preload-02"></div>
 <div id="preload-03"></div>
@@ -312,7 +328,7 @@
 
 <script type="text/javascript" src="js/jquery.magnific-popup.min.js"></script>
 <script type="text/javascript" src="js/jquery.backstretch.min.js"></script>
-<script type="text/javascript" src="slick/slick.js"></script> <!-- Slick Carousel -->
+<script type="text/javascript" src="slick/slick.min.js"></script> <!-- Slick Carousel -->
 <script src="js/index.js"></script>
 
 
