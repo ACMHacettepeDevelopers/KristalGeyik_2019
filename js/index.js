@@ -4,7 +4,7 @@ var currentPageID = "#tm-section-1";
 
 // Setup Carousel
 function setupCarousel() {
-
+    console.log('setup carousel');
     // If current page isn't Carousel page, don't do anything.
     if($('#tm-section-2').css('display') !== "none") {
         var slider = $('.tm-img-slider');
@@ -164,17 +164,11 @@ $(window).on("load", function(){
 });
 
 $(document).ready(function () {
+
     //setup all carousel when collapse clicked
     $("[data-toggle=collapse]").on('click', function () {
        setupCarousel();
     });
-
-
-    // $('body').find("a[href='#contact']").on('click', function () {
-    //
-    //     $('body').find(".tm-content").addClass('center-top');
-    // });
-
     // center items
     $('body').find("a.scrolly").on('click', function () {
         var url =  this.href.split('#')[1];
