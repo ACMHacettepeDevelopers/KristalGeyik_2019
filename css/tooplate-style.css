@@ -29,7 +29,7 @@ a:focus {
 
 a {	color: #FFF;  }
 
-a:hover { color: #FF0; }
+a:hover { color: #FDE199;}
 
 h1,h2,h3 { font-weight: 300; }
 
@@ -61,7 +61,7 @@ p:last-child { margin-bottom: 0; }
 /*Sidebar Start*/
 #logo{
     width: 100%;
-    max-width: 250px;
+    max-width: 290px;
     max-height: 100px;
     height: 100px;
     background: url("../img/logo.png");
@@ -125,7 +125,7 @@ p:last-child { margin-bottom: 0; }
 
 .sidebar {
     position: fixed;
-    height: 100%;
+    /*height: 100%;*/
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -237,7 +237,7 @@ p:last-child { margin-bottom: 0; }
 
 .slick-dots { bottom: -45px; }
 .slick-dots li button:before { font-size: 20px; }
-.slick-slide { margin: 0 10px; }
+.slick-slide { margin: 20px 10px 0; }
 .slick-list { margin: 0 -10px; }
 .tm-text-shadow { text-shadow: 0px 3px 2px rgba(50, 50, 50, 1); }
 
@@ -329,6 +329,7 @@ footer a { color: white; }
     .tm-main-nav a {
         margin: 20px 0 35px 0;
         padding-right: 10px;
+        font-size: 21px;
     }
 
     .tm-content { padding: 50px 5%; }
@@ -337,19 +338,25 @@ footer a { color: white; }
 @media (max-width: 1400px) {
 
     .tm-main-nav { font-size: 1.4rem; }
-    .tm-main-nav a { padding-right: 10px; }
+    .tm-main-nav a {
+        padding-right: 10px;
+        padding-bottom: 30px;
+        margin: 10px 0 25px 0;
+    }
+
     .tm-nav-fa-icon { margin-right: 25px; }
 
     .sidebar {
-        padding: 30px 30px 0 30px ;
+        padding: 0 30px 0 30px ;
         height: 100%;
         position: fixed;
     }
+
 }
 
 @media (max-width: 1340px) {
     .tm-content {
-        padding: 50px;
+        padding: 80px;
         margin: 0 auto;
     }
 }
@@ -404,6 +411,9 @@ footer a { color: white; }
         -ms-transition: all .3s ease-in-out;
         -o-transition: all .3s ease-in-out;
     }
+    .col-xl-9{
+        max-width: 100% !important;
+    }
 
     #tmSideBar.show { left: 0; }
 
@@ -426,7 +436,7 @@ footer a { color: white; }
 }
 
 @media (max-width: 767px) {
-    .tm-content { padding: 50px 30px; }
+    .tm-content { padding: 70px 30px; }
 }
 
 @media (max-width: 640px) {
@@ -452,6 +462,30 @@ footer a { color: white; }
         margin-right: 0;
         margin-bottom: 1.5rem;
     }
+    .tm-nav-fa-icon {
+        width: 40px;
+        height: 40px;
+    }
+    .tm-main-nav a {
+        font-size: 19px;
+        margin: 0 0 15px 0;
+    }
+    .tm-copyright-text{
+        font-size: 12px;
+    }
+}
+@media (max-width: 321px) {
+    #tmSideBar{
+        width: 260px;
+        left: -260px;
+        padding-top: 0 !important;
+    }
+    .tm-copyright-text{
+        width: 260px;
+        font-size: 11px;
+    }
+
+
 }
 
 /* Loader */

@@ -114,9 +114,8 @@
 }
 
 /* Dots */
-.slick-dotted.slick-slider
-{
-    margin-bottom: 30px;
+.slick-dotted.slick-slider {
+    margin: 0 auto 30px auto;
 }
 
 .slick-dots
