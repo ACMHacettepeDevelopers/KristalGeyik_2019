@@ -122,7 +122,11 @@ p:last-child { margin-bottom: 0; }
 }
 
 #tmMainNavToggle { display: none; }
-
+@media screen and (min-width: 1680px){
+    .sidebar {
+        height: 100%;
+    }
+}
 .sidebar {
     position: fixed;
     /*height: 100%;*/
@@ -135,7 +139,8 @@ p:last-child { margin-bottom: 0; }
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
-    padding: 60px 50px;
+    /*padding: 60px 50px;*/
+    padding: 30px 50px 50px;
     cursor: default;
     z-index: 100;
     background: rgba(0,0,0,0.5);
@@ -304,7 +309,7 @@ address { font-size: 1rem; }
     margin-left: 10px;
     color: white;
     text-align:left;
-    width:140%;
+    width:100%;
     z-index: 999;
 }
 
@@ -414,6 +419,9 @@ footer a { color: white; }
     .col-xl-9{
         max-width: 100% !important;
     }
+    .tm-copyright-text{
+        font-size: 13px !important;
+    }
 
     #tmSideBar.show { left: 0; }
 
@@ -471,7 +479,7 @@ footer a { color: white; }
         margin: 0 0 15px 0;
     }
     .tm-copyright-text{
-        font-size: 12px;
+        font-size: 12px !important;
     }
 }
 @media (max-width: 321px) {
