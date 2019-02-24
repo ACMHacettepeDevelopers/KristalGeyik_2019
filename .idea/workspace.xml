@@ -2,18 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="92fddea2-7bbb-4555-b151-bf8e508e55be" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/css/stylesheet.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/stylesheet.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/tooplate-style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/tooplate-style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/constructive_bg_01_.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/constructive_bg_02.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/constructive_bg_03.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/constructive_bg_04.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/slick/slick-theme.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/slick/slick-theme.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/slick/slick.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/slick/slick.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/index.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -24,138 +18,112 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="1730596390">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="9" />
-          <entry key="project.open.time.10" value="1" />
-          <entry key="project.open.time.11" value="1" />
-          <entry key="project.open.time.4" value="1" />
-          <entry key="project.open.time.6" value="1" />
-          <entry key="project.open.time.7" value="2" />
-          <entry key="project.open.time.8" value="3" />
-          <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="10" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="PNG" value="2" />
-          <entry key="css" value="8" />
-          <entry key="db" value="1" />
-          <entry key="html" value="2" />
-          <entry key="jpg" value="10" />
-          <entry key="js" value="14" />
-          <entry key="png" value="23" />
-          <entry key="rb" value="1" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="CSS" value="8" />
-          <entry key="HTML" value="2" />
-          <entry key="Image" value="35" />
-          <entry key="JavaScript" value="14" />
-          <entry key="PLAIN_TEXT" value="2" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="css" value="1489" />
-          <entry key="html" value="1146" />
-          <entry key="js" value="801" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="CSS" value="1490" />
-          <entry key="HTML" value="1146" />
-          <entry key="JavaScript" value="800" />
-        </counts>
-      </usages-collector>
-    </session>
-  </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="63" column="53" selection-start-line="63" selection-start-column="53" selection-end-line="63" selection-end-column="53" />
-              <folding>
-                <element signature="n#section#1;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#section#2;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#style#0;n#h2#0;n#header#0;n#div#0;n#div#0;n#div#0;n#section#4;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <marker date="1550515905002" expanded="true" signature="25345:27411" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/img/logo.png">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/slick/slick.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17664">
-              <caret line="783" column="4" selection-start-line="783" selection-start-column="4" selection-end-line="783" selection-end-column="4" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="805">
-              <caret line="35" column="26" selection-start-line="35" selection-start-column="22" selection-end-line="35" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/slick/slick.min.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="46" selection-start-column="46" selection-end-column="46" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/stylesheet.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="305">
-              <caret line="17" column="32" lean-forward="true" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/css/tooplate-style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="555">
-              <caret line="422" column="35" selection-start-line="422" selection-start-column="35" selection-end-line="422" selection-end-column="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/slick/slick-theme.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="269">
-              <caret line="117" column="29" lean-forward="true" selection-start-line="117" selection-start-column="29" selection-end-line="117" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.7283489">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/index.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="97">
+                  <caret line="400" column="36" lean-forward="true" selection-start-line="400" selection-start-column="36" selection-end-line="400" selection-end-column="36" />
+                  <folding>
+                    <element signature="n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#section#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#section#1;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#section#2;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#section#3;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#style#0;n#div#0;n#section#4;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                    <element signature="n#li#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#4;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#li#1;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#4;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#li#2;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#4;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#li#3;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#4;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#li#4;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#4;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#li#5;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#4;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#li#6;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#4;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/img/logo.png">
+              <provider selected="true" editor-type-id="images" />
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/slick/slick.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="758">
+                  <caret line="783" column="4" selection-start-line="783" selection-start-column="4" selection-end-line="783" selection-end-column="4" />
+                  <folding>
+                    <element signature="n#!!doc" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/js/index.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="423">
+                  <caret line="176" column="17" lean-forward="true" selection-start-line="176" selection-start-column="17" selection-end-line="176" selection-end-column="17" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/slick/slick.min.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state>
+                  <caret column="46" selection-start-column="46" selection-end-column="46" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/css/tooplate-style.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="856">
+                  <caret line="367" selection-start-line="367" selection-end-line="367" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/slick/slick-theme.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="2691">
+                  <caret line="117" column="29" selection-start-line="117" selection-start-column="29" selection-end-line="117" selection-end-column="29" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/css/stylesheet.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="406">
+                  <caret line="197" column="14" selection-start-line="197" selection-start-column="14" selection-end-line="197" selection-end-column="14" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/css/stylesheet.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="350">
+                  <caret line="225" column="16" lean-forward="true" selection-start-line="225" selection-start-column="16" selection-end-line="225" selection-end-column="16" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -167,11 +135,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>width</find>
-      <find>ready</find>
-      <find>bootst</find>
-      <find>post_</find>
-      <find>login</find>
       <find>/login</find>
       <find>ajax</find>
       <find>tm-slider-img</find>
@@ -197,6 +160,11 @@
       <find>col-xl-9</find>
       <find>slick</find>
       <find>.footer-link</find>
+      <find>ta</find>
+      <find>ötürü</find>
+      <find>wrap</find>
+      <find>.quiz_block_body</find>
+      <find>quiz_block_body_btn_grup_company</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -210,20 +178,14 @@
         <option value="$PROJECT_DIR$/slick/slick.js" />
         <option value="$PROJECT_DIR$/slick/slick.min.js" />
         <option value="$PROJECT_DIR$/slick/slick-theme.css" />
+        <option value="$PROJECT_DIR$/css/tooplate-style.css" />
+        <option value="$PROJECT_DIR$/css/stylesheet.css" />
         <option value="$PROJECT_DIR$/js/index.js" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/css/stylesheet.css" />
-        <option value="$PROJECT_DIR$/css/tooplate-style.css" />
       </list>
     </option>
   </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
-  </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="23" />
     <option name="width" value="1680" />
     <option name="height" value="981" />
@@ -268,6 +230,7 @@
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="slick&#9;FILE&#9;file:///Users/administrator/Documents/personal_projects/KristalGeyik_2019/slick/slick-theme.css&#10;bootstr&#9;FILE&#9;file:///Users/administrator/Documents/personal_projects/KristalGeyik_2019/css/bootstrap.min.css&#10;slic&#9;FILE&#9;file:///Users/administrator/Documents/personal_projects/KristalGeyik_2019/slick/slick.js&#10;index.&#9;FILE&#9;file:///Users/administrator/Documents/personal_projects/KristalGeyik_2019/index.html" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -275,11 +238,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/img/candidates" />
       <recent name="$PROJECT_DIR$/img" />
       <recent name="$PROJECT_DIR$/img/winners/kultur_sanat" />
       <recent name="$PROJECT_DIR$/img/winners/yonetim_finans" />
       <recent name="$PROJECT_DIR$/img/winners/muhendislik" />
-      <recent name="$PROJECT_DIR$/img/winners/bilim" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -313,18 +276,19 @@
       <workItem from="1549267960683" duration="48000" />
       <workItem from="1549810674420" duration="1477000" />
       <workItem from="1550329804245" duration="1857000" />
-      <workItem from="1550512177809" duration="4736000" />
+      <workItem from="1550512177809" duration="5250000" />
+      <workItem from="1550926172558" duration="8737000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28909000" />
+    <option name="totallyTimeSpent" value="38160000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1680" height="981" extended-state="6" />
+    <frame x="0" y="23" width="1920" height="1106" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15852924" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.11585045" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -336,7 +300,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32873562" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.2050401" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.13426854" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -381,30 +345,31 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/img/constructive_bg_01__.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/img/constructive_bg_01_.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/constructive_bg_02.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/img/constructive_bg_01_.jpg" />
+    <entry file="file://$PROJECT_DIR$/img/constructive_bg_02.jpg" />
     <entry file="file://$PROJECT_DIR$/img/brand.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_maxcdn.bootstrapcdn.com_bootstrap_4.0.0_js_bootstrap.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="9" column="42" selection-end-line="3894" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_maxcdn.bootstrapcdn.com_bootstrap_4.0.0_js_bootstrap.js" />
     <entry file="file://$PROJECT_DIR$/js/bootstrap.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="23">
@@ -474,19 +439,6 @@
     <entry file="file://$PROJECT_DIR$/img/nav-item-highlight.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/img/logo.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/slick/slick.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17664">
-          <caret line="783" column="4" selection-start-line="783" selection-start-column="4" selection-end-line="783" selection-end-column="4" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/slick/slick.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -496,42 +448,94 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/slick/slick-theme.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="117" column="29" lean-forward="true" selection-start-line="117" selection-start-column="29" selection-end-line="117" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="805">
-          <caret line="35" column="26" selection-start-line="35" selection-start-column="22" selection-end-line="35" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="63" column="53" selection-start-line="63" selection-start-column="53" selection-end-line="63" selection-end-column="53" />
-          <folding>
-            <element signature="n#section#1;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#section#2;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#style#0;n#h2#0;n#header#0;n#div#0;n#div#0;n#div#0;n#section#4;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1550515905002" expanded="true" signature="25345:27411" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/stylesheet.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="305">
-          <caret line="17" column="32" lean-forward="true" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
+        <state relative-caret-position="2691">
+          <caret line="117" column="29" selection-start-line="117" selection-start-column="29" selection-end-line="117" selection-end-column="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/tooplate-style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="422" column="35" selection-start-line="422" selection-start-column="35" selection-end-line="422" selection-end-column="35" />
+        <state relative-caret-position="856">
+          <caret line="367" selection-start-line="367" selection-end-line="367" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/logo.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/slick/slick.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="758">
+          <caret line="783" column="4" selection-start-line="783" selection-start-column="4" selection-end-line="783" selection-end-column="4" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/candidates/muhendislik/gida/balparmak.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/candidates/muhendislik/kimya/borcelik.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/candidates/muhendislik/kimya/sisecam.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/candidates/muhendislik/maden/anagold.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/candidates/muhendislik/makina/fnss.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/candidates/muhendislik/makina/tubitak_sage.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="423">
+          <caret line="176" column="17" lean-forward="true" selection-start-line="176" selection-start-column="17" selection-end-line="176" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/candidates/muhendislik/oyun/riot_games.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/candidates/muhendislik/oyun/tencent_games.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/candidates/muhendislik/yazılım/kod_a.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/candidates/muhendislik/yazılım/numesys.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/stylesheet.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="197" column="14" selection-start-line="197" selection-start-column="14" selection-end-line="197" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="97">
+          <caret line="400" column="36" lean-forward="true" selection-start-line="400" selection-start-column="36" selection-end-line="400" selection-end-column="36" />
+          <folding>
+            <element signature="n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#section#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#section#1;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#section#2;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#section#3;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#div#0;n#section#4;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#li#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#4;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#li#1;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#4;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#li#2;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#4;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#li#3;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#4;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#li#4;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#4;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#li#5;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#4;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#li#6;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#4;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+          </folding>
         </state>
       </provider>
     </entry>
