@@ -1657,8 +1657,8 @@
 <script type="text/javascript" src="js/jquery.magnific-popup.min.js"></script>
 <script type="text/javascript" src="js/jquery.backstretch.min.js"></script>
 <script type="text/javascript" src="slick/slick.min.js"></script> <!-- Slick Carousel -->
-<script src="js/index.js"></script>
-
+<!-- <script src="js/index.js"></script> -->
+<?php include("js/index_js.php")?>
 
 </body>
 </html>
