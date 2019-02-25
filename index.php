@@ -458,7 +458,7 @@
                                         </div>
                                         <hr>
                                     </li>
-                                    <li class="quiz_block_body_list_item">
+                                    <!-- <li class="quiz_block_body_list_item">
                                         <h1 class="quiz_block_body_list_item_title">
                                             Enerji
                                         </h1>
@@ -471,7 +471,7 @@
                                             </label>
                                         </div>
                                         <hr>
-                                    </li>
+                                    </li> -->
                                     <li class="quiz_block_body_list_item">
                                         <h1 class="quiz_block_body_list_item_title">
                                             Gıda
@@ -498,7 +498,7 @@
                                         </div>
                                         <hr>
                                     </li>
-                                    <li class="quiz_block_body_list_item">
+                                    <!-- <li class="quiz_block_body_list_item">
                                         <h1 class="quiz_block_body_list_item_title">
                                             İnşaat
                                         </h1>
@@ -511,7 +511,7 @@
                                             </label>
                                         </div>
                                         <hr>
-                                    </li>
+                                    </li> -->
                                     <li class="quiz_block_body_list_item">
                                         <h1 class="quiz_block_body_list_item_title">
                                             Kimya
@@ -558,7 +558,7 @@
                                         <hr>
                                     </li>
 
-                                    <li class="quiz_block_body_list_item">
+                                    <!-- <li class="quiz_block_body_list_item">
                                         <h1 class="quiz_block_body_list_item_title">
                                             Maden
                                         </h1>
@@ -571,7 +571,7 @@
                                             </label>
                                         </div>
                                         <hr>
-                                    </li>
+                                    </li> -->
 
                                     <li class="quiz_block_body_list_item">
                                         <h1 class="quiz_block_body_list_item_title">
@@ -1497,7 +1497,7 @@
                                         </div>
                                         <hr>
                                     </li>
-                                    <li class="quiz_block_body_list_item">
+                                    <!-- <li class="quiz_block_body_list_item">
                                         <h1 class="quiz_block_body_list_item_title">
                                             Telekominikasyon
                                         </h1>
@@ -1510,7 +1510,7 @@
                                             </label>
                                         </div>
                                         <hr>
-                                    </li>
+                                    </li> -->
 
                                 </ul>
                             </div>

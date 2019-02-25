@@ -3,8 +3,6 @@ var currentPageID = "#tm-section-1";
 
 // Setup Carousel
 function setupCarousel() {
-    console.log('setup carousel');
-    // If current page isn't Carousel page, don't do anything.
     if ($('#tm-section-2').css('display') !== "none") {
         var slider = $('.tm-img-slider');
         var windowWidth = $(window).width();
@@ -163,127 +161,95 @@ $(window).on("load", function () {
     }
 });
 
+var postData = {};
+
 $(document).ready(function () {
-    var postData = {};
-    //setup all carousel when collapse clicked
-    $("[data-toggle=collapse]").on('click', function () {
-        setupCarousel();
-    });
-    // center items
-    // $('body').find("a.scrolly").on('click', function () {
-    //     var url =  this.href.split('#')[1];
-    //     if(url === 'contact'){
-    //         $('.tm-content').addClass('center-top');
-    //     }else{
-    //         $('.tm-content').removeClass('center-top');
-    //     }
-    // });
+
+            //setup all carousel when collapse clicked
+            $("[data-toggle=collapse]").on('click', function () {
+                setupCarousel();
+            });
+
+            function checkPostIsFull(postData) {
+                var postLenght = Object.keys(postData).length;
+                if (postLenght < 25) {
+                    $("#tm-section-4 > div > div.container > span").remove();
+                    $("#tm-section-4 > div > div.container").append("<span>Lütfen Bütün Kategorilerden Seçim Yapınız!" + postLenght + "</span>");
+                } else {
+                    $("#tm-section-4 > div > div.container > span").remove();
+
+                }
+            }
+
+            $(".quiz_block_body_list_item_content").find("label").on('click', function (e) {
+                e.preventDefault();
+
+                var dataAttr = $(this).attr("for");
+                var inputData = $('input[value=' + dataAttr + ']');
+                var key = $(inputData).attr('name');
+                var label = $(this).find($('input')).attr('name');
+                var getSameSubCategory = $('body').find($('input[name=' + label + ']').parent().parent());
+
+                for (var elem = 0; elem < getSameSubCategory.length; elem++) {
+                    $(getSameSubCategory[elem]).removeClass("quiz_block_body_list_item_content_block_checked");
+                }
+
+                $(this).find(".quiz_block_body_list_item_content_block").addClass("quiz_block_body_list_item_content_block_checked");
+                postData[key] = $(this).find('span').text().trim();
+                checkPostIsFull(postData);
+
+
+            });
+
+            $(".page").hide();
+            $("#page-1").show();
+            var pageCounter = 1;
 
 
 
-    $(".quiz_block_body_list_item_content").find("label").on('click', function (e) {
-        e.preventDefault();
 
-        var dataAttr = $(this).attr("for");
-        var inputData = $('input[value=' + dataAttr + ']');
-        var key = $(inputData).attr('name');
-        postData[key] = $(this).find('span').text().trim();
-        console.log(postData);
-        // for get count of object
-        // Object.keys(postData).length); 
+            function initializeSubmitButton(pageCounter) {
+                if (pageCounter === 3) {
+                    checkPostIsFull(postData);
+                    $(".next-button").text('GÖNDER');
+
+                } else {
+                    $(".next-button").text('İLERİ');
+                }
+            }
+            initializeSubmitButton(pageCounter);
+
+            $(".next-button").on("click", function () {
+                    if (pageCounter !== 3) {
+                        pageCounter++;
+                        pageSwicher(pageCounter);
+                    } else {
+                        if (pageCounter === 3 && Object.keys(postData).length >= 25) {
+                            $.ajax({
+                                type: "POST",
+                                url: "./send_data.php",
+                                data: {
+                                    name: "username",
+                                    mail: "mail@mail.com",
+                                    result: JSON.stringify(postData) + ",\n"
+                                }
+                            });
+                        }
+                        initializeSubmitButton(pageCounter);
+                    });
+
+                $(".pre-button").on("click", function () {
+                    if (pageCounter !== 1) {
+                        pageCounter--;
+                        pageSwicher(pageCounter);
+                    }
+                    initializeSubmitButton(pageCounter);
+                });
+
+                function pageSwicher(pageCounter) {
+                    $(".page").hide();
+                    $("#page-" + pageCounter).show();
+                }
 
 
-
-        $(".quiz_block_body_list_item_content_block").removeClass("quiz_block_body_list_item_content_block_checked");
-        $(this).find(".quiz_block_body_list_item_content_block").addClass("quiz_block_body_list_item_content_block_checked")
-    })
-
-
-});
-
-
-$(".page").hide();
-$("#page-1").show();
-var pageCounter = 1;
-
-$(".next-button").on("click", function () {
-    if (pageCounter !== 3) {
-        pageCounter++;
-        pageSwicher(pageCounter);
-    }
-});
-
-$(".pre-button").on("click", function () {
-    if (pageCounter !== 1) {
-        pageCounter--;
-        pageSwicher(pageCounter);
-    }
-});
-
-function pageSwicher(pageCounter) {
-    $(".page").hide();
-    $("#page-" + pageCounter).show();
-}
-
-
-// $(document).ready(function() {
-//     carousel({
-//         slider: '.quiz_block_body_list .quiz_block_body_list_item',
-//         pixelOffset: 780,
-//         shift: 780,
-//         btnLeft: '.quiz_block_body_btn_grup_back',
-//         btnRight: '.quiz_block_body_btn_grup_next',
-//         time: 250,
-//         progress: {
-//             lineProgress: '.quiz_block_headed_progressbar_line',
-//             percentProgress: '.quiz_block_headed_percent_int',
-//             currentProgress: 0,
-//             intProgress: 16,
-//         },
-//     });
-// });
-//
-//
-// var carousel = function(obj) {
-//     let sliderLength = $(obj.slider).length;
-//     let maxOffset = 0;
-//     let minOffset = -(sliderLength - 1) * obj.pixelOffset;
-//     let currentLeft = 0;
-//
-//     let currentProgress = obj.progress.currentProgress;
-//     let percentProgress = $(obj.progress.percentProgress);
-//     let lineProgress = $(obj.progress.lineProgress);
-//     let intProgress = obj.progress.intProgress;
-//
-//     $(obj.btnRight).on("click", function() {
-//         if(currentLeft !== minOffset) {
-//             currentLeft -= obj.shift;
-//             $(obj.slider).animate({
-//                 left: currentLeft+"px",
-//             }, obj.time);
-//             if(obj.progress !== 0) {
-//                 currentProgress += intProgress;
-//                 percentProgress.text(currentProgress+"%");
-//                 lineProgress.css({
-//                     width: currentProgress+"%",
-//                 });
-//             }
-//         }
-//     });
-//
-//     $(obj.btnLeft).on("click", function() {
-//         if(currentLeft !== maxOffset) {
-//             currentLeft += obj.shift;
-//             $(obj.slider).animate({
-//                 left: currentLeft+"px",
-//             }, obj.time);
-//             if(obj.progress !== 0) {
-//                 currentProgress -= intProgress;
-//                 percentProgress.text(currentProgress+"%");
-//                 lineProgress.css({
-//                     width: currentProgress+"%",
-//                 });
-//             }
-//         }
-//     });
-// }
+            });
