@@ -2,7 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="92fddea2-7bbb-4555-b151-bf8e508e55be" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/img/candidates/kultur_sanat/muzik/sıla.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/stylesheet.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/stylesheet.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/candidates/muhendislik/yazılım/armada.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/candidates/muhendislik/yazılım/kod_a.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/candidates/muhendislik/yazılım/microsoft.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/candidates/muhendislik/yazılım/mobiliva.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/candidates/muhendislik/yazılım/numesys.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/candidates/muhendislik/yazılım/turksat.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -15,14 +22,14 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.7283489">
+    <splitter split-orientation="horizontal" split-proportion="0.6300505">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="320">
-                  <caret line="1517" column="20" selection-start-line="1517" selection-start-column="20" selection-end-line="1517" selection-end-column="20" />
+                <state relative-caret-position="185">
+                  <caret line="401" column="48" selection-start-line="401" selection-start-column="48" selection-end-line="401" selection-end-column="48" />
                   <folding>
                     <element signature="n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#section#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
@@ -30,8 +37,6 @@
                     <element signature="n#section#2;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#section#3;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#style#0;n#div#0;n#section#4;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#div#0;n#div#0;n#section#4;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
-                    <element signature="n#li#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#4;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#li#1;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#4;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#li#2;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#4;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#li#3;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#4;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
@@ -122,7 +127,7 @@
             <entry file="file://$PROJECT_DIR$/css/stylesheet.css">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="406">
-                  <caret line="197" column="14" selection-start-line="197" selection-start-column="14" selection-end-line="197" selection-end-column="14" />
+                  <caret line="205" column="14" selection-start-line="205" selection-start-column="14" selection-end-line="205" selection-end-column="14" />
                 </state>
               </provider>
             </entry>
@@ -134,8 +139,17 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/css/stylesheet.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="350">
-                  <caret line="225" column="16" selection-start-line="225" selection-start-column="16" selection-end-line="225" selection-end-column="16" />
+                <state relative-caret-position="516">
+                  <caret line="120" column="14" lean-forward="true" selection-start-line="120" selection-start-column="14" selection-end-line="120" selection-end-column="14" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/css/tooplate-style.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="515">
+                  <caret line="454" column="1" selection-start-line="454" selection-start-column="1" selection-end-line="454" selection-end-column="1" />
                 </state>
               </provider>
             </entry>
@@ -154,9 +168,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>ajax</find>
-      <find>tm-slider-img</find>
-      <find>0</find>
       <find>0px</find>
       <find>windowWidth</find>
       <find>img-fluid</find>
@@ -184,6 +195,9 @@
       <find>.quiz_block_body</find>
       <find>quiz_block_body_btn_grup_company</find>
       <find>id=&quot;ahmet_umit</find>
+      <find>yazilim</find>
+      <find>@media</find>
+      <find>col-md-3 col-sm-4</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -197,9 +211,9 @@
         <option value="$PROJECT_DIR$/slick/slick.js" />
         <option value="$PROJECT_DIR$/slick/slick.min.js" />
         <option value="$PROJECT_DIR$/slick/slick-theme.css" />
+        <option value="$PROJECT_DIR$/js/index.js" />
         <option value="$PROJECT_DIR$/css/tooplate-style.css" />
         <option value="$PROJECT_DIR$/css/stylesheet.css" />
-        <option value="$PROJECT_DIR$/js/index.js" />
         <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
@@ -227,11 +241,6 @@
             <path>
               <item name="KristalGeyik_2019" type="b2602c69:ProjectViewProjectNode" />
               <item name="KristalGeyik_2019" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="KristalGeyik_2019" type="b2602c69:ProjectViewProjectNode" />
-              <item name="KristalGeyik_2019" type="462c0819:PsiDirectoryNode" />
               <item name="img" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -245,23 +254,7 @@
               <item name="KristalGeyik_2019" type="462c0819:PsiDirectoryNode" />
               <item name="img" type="462c0819:PsiDirectoryNode" />
               <item name="candidates" type="462c0819:PsiDirectoryNode" />
-              <item name="yonetim_finans" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="KristalGeyik_2019" type="b2602c69:ProjectViewProjectNode" />
-              <item name="KristalGeyik_2019" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
-              <item name="candidates" type="462c0819:PsiDirectoryNode" />
-              <item name="yonetim_finans" type="462c0819:PsiDirectoryNode" />
-              <item name="pazarlama_reklam" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="KristalGeyik_2019" type="b2602c69:ProjectViewProjectNode" />
-              <item name="KristalGeyik_2019" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
-              <item name="candidates" type="462c0819:PsiDirectoryNode" />
-              <item name="yonetim_finans" type="462c0819:PsiDirectoryNode" />
-              <item name="telekomunikasyon" type="462c0819:PsiDirectoryNode" />
+              <item name="muhendislik" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="KristalGeyik_2019" type="b2602c69:ProjectViewProjectNode" />
@@ -325,18 +318,18 @@
       <workItem from="1549810674420" duration="1477000" />
       <workItem from="1550329804245" duration="1857000" />
       <workItem from="1550512177809" duration="5250000" />
-      <workItem from="1550926172558" duration="13932000" />
+      <workItem from="1550926172558" duration="16290000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43355000" />
+    <option name="totallyTimeSpent" value="45713000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1920" height="1106" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16587678" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16587678" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -348,7 +341,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32873562" />
-      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.12324649" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.13927856" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -458,13 +451,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/tooplate-style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="856">
-          <caret line="367" selection-start-line="367" selection-end-line="367" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/img/logo.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -509,18 +495,8 @@
     <entry file="file://$PROJECT_DIR$/img/candidates/muhendislik/oyun/tencent_games.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/img/candidates/muhendislik/yazılım/kod_a.png">
+    <entry file="file://$PROJECT_DIR$/img/candidates/muhendislik/yazilim/kod_a.png">
       <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/candidates/muhendislik/yazılım/numesys.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/stylesheet.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="406">
-          <caret line="197" column="14" selection-start-line="197" selection-start-column="14" selection-end-line="197" selection-end-column="14" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/img/candidates/kultur_sanat/kadin_televizyon_oyuncusu/hazal_kaya.png">
       <provider selected="true" editor-type-id="images" />
@@ -576,10 +552,27 @@
     <entry file="file://$PROJECT_DIR$/img/candidates/yonetim_finans/lojistik/arkas_lojistik.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/img/candidates/muhendislik/yazilim/numesys.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/tooplate-style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="856">
+          <caret line="367" selection-start-line="367" selection-end-line="367" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/stylesheet.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="205" column="14" selection-start-line="205" selection-start-column="14" selection-end-line="205" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="1517" column="20" selection-start-line="1517" selection-start-column="20" selection-end-line="1517" selection-end-column="20" />
+        <state relative-caret-position="185">
+          <caret line="401" column="48" selection-start-line="401" selection-start-column="48" selection-end-line="401" selection-end-column="48" />
           <folding>
             <element signature="n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
             <element signature="n#section#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
@@ -587,8 +580,6 @@
             <element signature="n#section#2;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
             <element signature="n#section#3;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
             <element signature="n#style#0;n#div#0;n#section#4;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#div#0;n#div#0;n#section#4;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#li#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#4;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
             <element signature="n#li#1;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#4;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
             <element signature="n#li#2;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#4;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
             <element signature="n#li#3;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#4;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
