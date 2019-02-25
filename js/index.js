@@ -162,94 +162,106 @@ $(window).on("load", function () {
 });
 
 var postData = {};
-
+var pageCounter = 1;
 $(document).ready(function () {
+    $('form').hide();
+    //setup all carousel when collapse clicked
+    $("[data-toggle=collapse]").on('click', function () {
+        setupCarousel();
+    });
 
-            //setup all carousel when collapse clicked
-            $("[data-toggle=collapse]").on('click', function () {
-                setupCarousel();
-            });
+    function checkPostIsFull(postData) {
+        var postLenght = Object.keys(postData).length;
+        if (postLenght < 25) {
+            $("#tm-section-4 > div > div.container > span").remove();
+            $("#tm-section-4 > div > div.container").append("<span>Lütfen Bütün Kategorilerden Seçim Yapınız! Tamamlanma : " + postLenght + " / 25</span>");
+        } else {
+            $('form').show();
+            $("#tm-section-4 > div > div.container > span").remove();
 
-            function checkPostIsFull(postData) {
-                var postLenght = Object.keys(postData).length;
-                if (postLenght < 25) {
-                    $("#tm-section-4 > div > div.container > span").remove();
-                    $("#tm-section-4 > div > div.container").append("<span>Lütfen Bütün Kategorilerden Seçim Yapınız!" + postLenght + "</span>");
-                } else {
-                    $("#tm-section-4 > div > div.container > span").remove();
+        }
+    }
 
-                }
-            }
+    $(".quiz_block_body_list_item_content").find("label").on('click', function (e) {
+        e.preventDefault();
 
-            $(".quiz_block_body_list_item_content").find("label").on('click', function (e) {
-                e.preventDefault();
+        var dataAttr = $(this).attr("for");
+        var inputData = $('input[value=' + dataAttr + ']');
+        var key = $(inputData).attr('name');
+        var label = $(this).find($('input')).attr('name');
+        var getSameSubCategory = $('body').find($('input[name=' + label + ']').parent().parent());
 
-                var dataAttr = $(this).attr("for");
-                var inputData = $('input[value=' + dataAttr + ']');
-                var key = $(inputData).attr('name');
-                var label = $(this).find($('input')).attr('name');
-                var getSameSubCategory = $('body').find($('input[name=' + label + ']').parent().parent());
+        for (var elem = 0; elem < getSameSubCategory.length; elem++) {
+            $(getSameSubCategory[elem]).removeClass("quiz_block_body_list_item_content_block_checked");
+        }
 
-                for (var elem = 0; elem < getSameSubCategory.length; elem++) {
-                    $(getSameSubCategory[elem]).removeClass("quiz_block_body_list_item_content_block_checked");
-                }
-
-                $(this).find(".quiz_block_body_list_item_content_block").addClass("quiz_block_body_list_item_content_block_checked");
-                postData[key] = $(this).find('span').text().trim();
-                checkPostIsFull(postData);
-
-
-            });
-
-            $(".page").hide();
-            $("#page-1").show();
-            var pageCounter = 1;
+        $(this).find(".quiz_block_body_list_item_content_block").addClass("quiz_block_body_list_item_content_block_checked");
+        postData[key] = $(this).find('span').text().trim();
+        checkPostIsFull(postData);
 
 
+    });
+
+    $(".page").hide();
+    $("#page-1").show();
 
 
-            function initializeSubmitButton(pageCounter) {
-                if (pageCounter === 3) {
-                    checkPostIsFull(postData);
-                    $(".next-button").text('GÖNDER');
 
-                } else {
-                    $(".next-button").text('İLERİ');
-                }
-            }
-            initializeSubmitButton(pageCounter);
 
-            $(".next-button").on("click", function () {
-                    if (pageCounter !== 3) {
-                        pageCounter++;
-                        pageSwicher(pageCounter);
-                    } else {
-                        if (pageCounter === 3 && Object.keys(postData).length >= 25) {
-                            $.ajax({
-                                type: "POST",
-                                url: "./send_data.php",
-                                data: {
-                                    name: "username",
-                                    mail: "mail@mail.com",
-                                    result: JSON.stringify(postData) + ",\n"
-                                }
-                            });
+
+    function initializeSubmitButton(pageCounter) {
+        if (pageCounter === 3) {
+            checkPostIsFull(postData);
+            $(".next-button").text('GÖNDER');
+        } else {
+            $(".next-button").text('İLERİ');
+        }
+    }
+    initializeSubmitButton(pageCounter);
+
+    $(".next-button").on("click", function () {
+        $(window).scrollTop(0);
+        if (pageCounter !== 3) {
+            pageCounter++;
+            pageSwicher(pageCounter);
+        } else {
+            if (pageCounter === 3 && Object.keys(postData).length <= 25) {
+                var recapToken = $('.g-recap').serialize();
+                if (recapToken.length > "g-recaptcha-response=".length) {
+                    $.ajax({
+                        type: "POST",
+                        url: "./send_data.php",
+                        data: {
+                            name: "username",
+                            mail: "mail@mail.com",
+                            result: JSON.stringify(postData) + ",\n"
+                        },
+                        success: function (data) {
+                            alert('Gönderiminiz Kaydedildi. Teşekkürler.');
+                            window.location = "index.php";
                         }
-                        initializeSubmitButton(pageCounter);
                     });
-
-                $(".pre-button").on("click", function () {
-                    if (pageCounter !== 1) {
-                        pageCounter--;
-                        pageSwicher(pageCounter);
-                    }
-                    initializeSubmitButton(pageCounter);
-                });
-
-                function pageSwicher(pageCounter) {
-                    $(".page").hide();
-                    $("#page-" + pageCounter).show();
                 }
 
+            } else {
+                alert('Lütfen Eksiksiz Seçim Yapınız!');
+            }
+        }
+        initializeSubmitButton(pageCounter);
+    });
 
-            });
+    $(".pre-button").on("click", function () {
+        $(window).scrollTop(0);
+        if (pageCounter !== 1) {
+            pageCounter--;
+            pageSwicher(pageCounter);
+        }
+        initializeSubmitButton(pageCounter);
+    });
+
+    function pageSwicher(pageCounter) {
+        $(".page").hide();
+        $("#page-" + pageCounter).show();
+    }
+
+});

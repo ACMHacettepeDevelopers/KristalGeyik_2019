@@ -26,6 +26,19 @@
             renderPage = false;
         }
     </script>
+     <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+     <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-116317084-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-116317084-1');
+    </script>
+    
+
+
 </head>
 
 <body>
@@ -62,7 +75,7 @@
                         <li>
                             <a href="#intro" id="tmNavLink0" class="scrolly" data-bg-img="constructive_bg_01.jpg" data-page="#tm-section-0">
                                 <i class="fas fa-book tm-nav-fa-icon"></i>
-                                <span>Hakkımızda</span>
+                                <span>Sponsorlarımız</span>
                             </a>
                         </li>
 
@@ -75,7 +88,7 @@
                         <li>
                             <a href="#company" class="scrolly" data-bg-img="constructive_bg_01.jpg" data-page="#tm-section-3">
                                 <i class="fas fa-users tm-nav-fa-icon"></i>
-                                <span>Biz Kimiz</span>
+                                <span>Hakkımızda</span>
                             </a>
                         </li>
                         <li>
@@ -120,21 +133,69 @@
             <!-- section 1 -->
             <section id="tm-section-0" class="tm-section">
                 <div class="ml-auto">
-                    <header class="mb-4"><h1 class="tm-text-shadow">Ortaya çıkış ve misyon</h1></header>
-                    <p class="mb-5 tm-font-big">
-                        Hacettepe Üniversitesi, ilk kez 2018 yılında, Hacettepe Üniversitesi öğrencilerinin
-                        kullandıkları oylar sonucunda sektördeki en başarılı şirket veya kişileri seçip bu şirket veya kişileri
-                        Hacettepe Üniversitesi öğrencileriyle bir araya getirmek amacıyla "Kristal Geyik Ödülleri" etkinliğini organize etmiştir.
-                        2019 yılında ikinci kez gerçekleşecek olan bu etkinlik yenilikçi, gelişmeye açık ve interaktif olmasından
-                        dolayı öğrenciler tarafından büyük bir ilgi görmektedir.
-                    </p>
-                    <p class="mb-5 tm-font-big">
-                        Üniversitemizin ve organizasyon komitemizin vizyonları doğrultusunda ülkemizin başarılı kişilerinin ve köklü
-                        şirketlerinin  katılımı ile büyük önem arz eden "Kristal Geyik Ödülleri" etkinliği Hacettepe Üniversitesi
-                        Beytepe Kültür ve Kongre Merkezi’nde 26.03.2019 tarihinde gerçekleştirilecektir.
-                    </p>
-                    <!--<a href="#" class="btn tm-btn tm-font-big" data-nav-link="#tmNavLink2">Continue...</a>-->
-                    <!-- data-nav-link holds the ID of nav item, which means this link should behave the same as that nav item  -->
+                    <header class="mb-4"><h1 class="tm-text-shadow">Sponsorlarımız</h1></header>
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <h2>ANA SPONSOR</h2>
+                        </div>
+                        <div class="col-sm-3 col-md-4 col-lg-6 col-xl-4 mb-4">
+                            
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-6 col-xl-4 mb-4">
+                            <div class="media tm-bg-transparent-black tm-border-white">
+                                <div class="partner-logo" id="anagold-sponsor"></div>
+                                
+                            </div>
+                            <h4>ANAGOLD</h4>
+                        </div>
+                        <div class="col-sm-12">
+                            
+                            <h2>ALTIN SPONSOR</h2>
+                        </div>
+                        <div class="col-sm-3 col-md-4 col-lg-6 col-xl-4 mb-4">
+                            
+                            </div>
+                        <div class="col-sm-6 col-md-4 col-lg-6 col-xl-4 mb-4">
+                            <div class="media tm-bg-transparent-black tm-border-white">
+                                <div class="partner-logo" id="aselsan-sponsor"></div>
+                                
+                            </div>
+                            <h4>ASELSAN</h4>
+                        </div>
+
+                        <div class="col-sm-12"> 
+                            <h2>DESTEK SPONSORLARI</h2>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-6 col-xl-4 mb-4">
+                            <div class="media tm-bg-transparent-black tm-border-white">
+                                <div class="partner-logo" id="armada-yazilim"></div>
+                                
+                            </div>
+                            <h4>ARMADA YAZILIM</h4>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-6 col-xl-4 mb-4">
+                            <div class="media tm-bg-transparent-black tm-border-white">
+                                <div class="partner-logo" id="dsm-sponsor"></div>
+                                
+                            </div>
+                            <h4>DSM</h4>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-6 col-xl-4 mb-4">
+                            <div class="media tm-bg-transparent-black tm-border-white">
+                                <div class="partner-logo" id="turksat-sponsor"></div>
+                                
+                            </div>
+                            <h4>TÜRKSAT</h4>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-6 col-xl-4 mb-4">
+                            <div class="media tm-bg-transparent-black tm-border-white">
+                                <div class="partner-logo" id="yemekumbara"></div>
+                                
+                            </div>
+                            <h4>YEMEKUMBARA</h4>
+                        </div>
+
+                    </div>
                 </div>
             </section>
 
@@ -345,46 +406,67 @@
             <!-- section 3 -->
             <section id="tm-section-3" class="tm-section">
                 <div class="row mb-4">
-                    <header class="col-xl-12"><h2 class="tm-text-shadow">Biz Kimiz</h2></header>
+                <header class="mb-4"><h1 class="tm-text-shadow">Ortaya çıkış ve misyon</h1></header>
                 </div>
+                <p class="mb-5 tm-font-big">
+                        Hacettepe Üniversitesi, ilk kez 2018 yılında, Hacettepe Üniversitesi öğrencilerinin
+                        kullandıkları oylar sonucunda sektördeki en başarılı şirket veya kişileri seçip bu şirket veya kişileri
+                        Hacettepe Üniversitesi öğrencileriyle bir araya getirmek amacıyla "Kristal Geyik Ödülleri" etkinliğini organize etmiştir.
+                        2019 yılında ikinci kez gerçekleşecek olan bu etkinlik yenilikçi, gelişmeye açık ve interaktif olmasından
+                        dolayı öğrenciler tarafından büyük bir ilgi görmektedir.
+                    </p>
+                    <p class="mb-5 tm-font-big">
+                        Üniversitemizin ve organizasyon komitemizin vizyonları doğrultusunda ülkemizin başarılı kişilerinin ve köklü
+                        şirketlerinin  katılımı ile büyük önem arz eden "Kristal Geyik Ödülleri" etkinliği Hacettepe Üniversitesi
+                        Beytepe Kültür ve Kongre Merkezi’nde 26.03.2019 tarihinde gerçekleştirilecektir.
+                    </p>
                 <div class="row">
                     <div class="col-sm-6 col-md-4 col-lg-6 col-xl-4 mb-4">
                         <div class="media tm-bg-transparent-black tm-border-white">
                             <div class="partner-logo" id="otk"></div>
+                            
                         </div>
+                        <h4>HACETTEPE ÖTK</h4>
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-6 col-xl-4 mb-4">
                         <div class="media tm-bg-transparent-black tm-border-white">
                             <div class="partner-logo" id="acm"></div>
                         </div>
+                        <h4>ACM HACETTEPE</h4>
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-6 col-xl-4 mb-4">
                         <div class="media tm-bg-transparent-black tm-border-white">
                             <div class="partner-logo" id="giyat"></div>
                         </div>
+                        <h4>GİYAT</h4>
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-6 col-xl-4 mb-4">
                         <div class="media tm-bg-transparent-black tm-border-white">
                             <div class="partner-logo" id="gmt"></div>
                         </div>
+                        <h4>GMT</h4>
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-6 col-xl-4 mb-4">
                         <div class="media tm-bg-transparent-black tm-border-white">
                             <div class="partner-logo" id="hends"></div>
                         </div>
+                        <h4>HENDS</h4>
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-6 col-xl-4 mb-4">
                         <div class="media tm-bg-transparent-black tm-border-white">
                             <div class="partner-logo" id="hit"></div>
                         </div>
+                        <h4>HİT</h4>
                     </div><div class="col-sm-6 col-md-4 col-lg-6 col-xl-4 mb-4">
                     <div class="media tm-bg-transparent-black tm-border-white">
                         <div class="partner-logo" id="hot"></div>
                     </div>
+                    <h4>HOT</h4>
                 </div><div class="col-sm-6 col-md-4 col-lg-6 col-xl-4 mb-4">
                     <div class="media tm-bg-transparent-black tm-border-white">
                         <div class="partner-logo" id="ieee"></div>
                     </div>
+                    <h4>İEEE HACETTEPE</h4>
                 </div>
                 </div>
             </section>
@@ -524,6 +606,12 @@
                                                 </div>
                                             </label>
 
+                                            <label for="basf" class="col-md-3 col-sm-4">
+                                                <div class="quiz_block_body_list_item_content_block" data-class=".group_1" data-id="#basf">
+                                                    <img src="img/candidates/muhendislik/kimya/basf.png" alt="basf">
+                                                    <span>Borçelik<input name="kimya" value="basf" id="basf" type="radio" class="btnGr"></span>
+                                                </div>
+                                            </label>
                                             <label for="borcelik" class="col-md-3 col-sm-4">
                                                 <div class="quiz_block_body_list_item_content_block" data-class=".group_1" data-id="#borcelik">
                                                     <img src="img/candidates/muhendislik/kimya/borcelik.png" alt="borcelik">
@@ -651,6 +739,12 @@
                                             Oyun
                                         </h1>
                                         <div class="quiz_block_body_list_item_content row">
+                                            <label for="apps" class="col-md-3 col-sm-4">
+                                                <div class="quiz_block_body_list_item_content_block" data-class=".group_1" data-id="#apps">
+                                                    <img src="img/candidates/muhendislik/oyun/apps.png" alt="apps">
+                                                    <span>APPS<input name="game" value="apps" id="apps" type="radio" class="btnGr"></span>
+                                                </div>
+                                            </label>
                                             <label for="mild_mania" class="col-md-3 col-sm-4">
                                                 <div class="quiz_block_body_list_item_content_block" data-class=".group_1" data-id="#mild_mania">
                                                     <img src="img/candidates/muhendislik/oyun/mild_mania.png" alt="mild_mania">
@@ -687,6 +781,12 @@
                                                 <div class="quiz_block_body_list_item_content_block" data-class=".group_1" data-id="#armada">
                                                     <img src="img/candidates/muhendislik/yazilim/armada.png" alt="armada">
                                                     <span>Armada <input name="software" value="armada" id="armada" type="radio" class="btnGr"></span>
+                                                </div>
+                                            </label>
+                                            <label for="bilisim" class="col-md-3 col-sm-4">
+                                                <div class="quiz_block_body_list_item_content_block" data-class=".group_1" data-id="#bilisim">
+                                                    <img src="img/candidates/muhendislik/yazilim/bilisim.png" alt="bilisim">
+                                                    <span>Bilişim <input name="software" value="bilisim" id="bilisim" type="radio" class="btnGr"></span>
                                                 </div>
                                             </label>
                                             <label for="kod_a" class="col-md-3 col-sm-4">
@@ -887,6 +987,7 @@
                                     <li class="quiz_block_body_list_item">
                                         <h1 class="quiz_block_body_list_item_title">Müzik</h1>
                                         <div class="quiz_block_body_list_item_content row">
+                                            
                                             <label for="can_bonomo" class="col-md-3 col-sm-4">
                                                 <div class="quiz_block_body_list_item_content_block" data-class=".group_1" data-id="#can_bonomo">
                                                     <img src="img/candidates/kultur_sanat/muzik/can_bonomo.png" alt="can_bonomo">
@@ -993,6 +1094,12 @@
                                             Sinema
                                         </h1>
                                         <div class="quiz_block_body_list_item_content row">
+                                            <label for="ali_atay" class="col-md-3 col-sm-4">
+                                                <div class="quiz_block_body_list_item_content_block" data-class=".group_1" data-id="#ali_atay">
+                                                    <img src="img/candidates/kultur_sanat/muzik/ali_atay.png" alt="ali_atay">
+                                                    <span>Ali Atay<input name="sinema" value="ali_atay" id="ali_atay" type="radio" class="btnGr"></span>
+                                                </div>
+                                            </label>
                                             <label for="balamir_emren" class="col-md-3 col-sm-4">
                                                 <div class="quiz_block_body_list_item_content_block" data-class=".group_1" data-id="#balamir_emren">
                                                     <img src="img/candidates/kultur_sanat/sinema/balamir_emren.png" alt="balamir_emren">
@@ -1516,6 +1623,10 @@
                             </div>
                         </div>
                     </div>
+                    <form action="?" method="POST" class="g-recap">
+                        <div class="g-recaptcha" data-sitekey="6Ldw4ZMUAAAAAL3twJ0b6xfOCgCn48z8CKF4Mr_X"></div>
+
+                    </form>
                     <!--page -3 end-->
 
                     <div class="container">

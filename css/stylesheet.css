@@ -3,6 +3,10 @@ input[type="radio"] {
   display: none;
 }
 
+form {
+  margin-bottom: 30px;
+}
+
 .center-top {
   top: 50% !important;
   transform: translateY(-50%) !important;
@@ -36,12 +40,22 @@ input[type="radio"] {
 
 .card .btn-link {
   color: #fff;
+  width: 100%;
+  margin: .75rem 1.25rem;
+  height: 100%;
+  font-size: 22px;
+}
+
+.card-header {
+  padding: 0 !important;
 }
 
 .card .card-body a p {
   text-align: center;
   font-size: 25px;
 }
+
+
 
 .card .card-body a:hover {
   color: #fff;
@@ -108,11 +122,75 @@ input[type="radio"] {
   background-size: contain;
 }
 
+#tm-section-3 h4,
+#tm-section-0 h4 {
+  text-align: center;
+  margin-top: 10px;
+  color: #ffe18e;
+}
 
+#tm-section-0 h2 {
+  text-align: center;
+  margin: 10px 0;
 
+}
+
+/* sponsorlar */
+#anagold-sponsor {
+  background: url("../img/sponsor/anagold.png") no-repeat center;
+  background-size: contain;
+}
+
+#aselsan-sponsor {
+  background: url("../img/sponsor/aselsan.png") no-repeat center;
+  background-size: contain;
+}
+
+#armada-yazilim {
+  background: url("../img/sponsor/armada_yazilim.png") no-repeat center;
+  background-size: contain;
+}
+
+#dsm-sponsor {
+  background: url("../img/sponsor/dsm.png") no-repeat center;
+  background-size: contain;
+}
+
+#turksat-sponsor {
+  background: url("../img/sponsor/turksat.png") no-repeat center;
+  background-size: contain;
+}
+
+#yemekumbara {
+  background: url("../img/sponsor/yemekumbara.png") no-repeat center;
+  background-size: contain;
+}
 
 /*section3 - end */
 /*section4 - start */
+#tm-section-4>div>div.container {
+  position: relative;
+  max-width: 100% !important;
+
+}
+
+#tm-section-4>div>div.container .next-button {
+  float: right;
+
+}
+
+#tm-section-4>div>div.container .pre-button {
+  float: left;
+
+}
+
+#tm-section-4>div>div.container>span {
+  padding-left: 20px;
+  color: #cfcfcf;
+  position: absolute;
+  bottom: -110px;
+  left: 0;
+}
 
 #tm-section-4 .tm-contact-box-pad {
   border-radius: 8px;
@@ -289,6 +367,7 @@ input[type="radio"] {
   overflow: hidden;
   /*width: 150px;*/
   /*height: 180px;*/
+  padding: 5px;
   margin-right: 20px;
   border-radius: 4px;
   cursor: pointer;
@@ -300,7 +379,7 @@ input[type="radio"] {
 .quiz_block_body_list_item_content_block span {
   /*width: 100%;*/
   /*height: 30px;*/
-  display: flex;
+  /* display: flex; */
   align-items: center;
   margin-left: 5px;
   font-family: 'Roboto', sans-serif;
