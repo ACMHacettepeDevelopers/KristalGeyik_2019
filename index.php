@@ -399,9 +399,10 @@
                         <div class="row main-background position-relative" >
                             <h1>Mühendislik</h1>
                             <div class="row">
-                                <form method="POST" action="./send_data.php">
+                                
                                 <ul>
                                     <li class="quiz_block_body_list_item">
+                                    
                                         <h1 class="quiz_block_body_list_item_title">
                                             Elektronik
                                         </h1>
@@ -462,7 +463,7 @@
                                             Enerji
                                         </h1>
                                         <div class="quiz_block_body_list_item_content row">
-                                            <label for="xiaomi" class="col-md-3 col-sm-4">
+                                            <label for="schneider" class="col-md-3 col-sm-4">
                                                 <div class="quiz_block_body_list_item_content_block" data-class=".group_1" data-id="#schneider">
                                                     <img src="img/candidates/muhendislik/enerji/schneider.png" alt="schneider">
                                                     <span>Schneider<input name="energy" value="schneider" id="schneider" type="radio" class="btnGr"></span>
@@ -476,19 +477,19 @@
                                             Gıda
                                         </h1>
                                         <div class="quiz_block_body_list_item_content row">
-                                            <label for="xiaomi" class="col-md-3 col-sm-4">
+                                            <label for="balparmak" class="col-md-3 col-sm-4">
                                                 <div class="quiz_block_body_list_item_content_block" data-class=".group_1" data-id="#balparmak">
                                                     <img src="img/candidates/muhendislik/gida/balparmak.png" alt="balparmak">
                                                     <span>Balparmak<input name="gida" value="balparmak" id="balparmak" type="radio" class="btnGr"></span>
                                                 </div>
                                             </label>
-                                            <label for="turksat" class="col-md-3 col-sm-4">
+                                            <label for="halk_ekmek" class="col-md-3 col-sm-4">
                                                 <div class="quiz_block_body_list_item_content_block" data-class=".group_1" data-id="#halk_ekmek">
                                                     <img src="img/candidates/muhendislik/gida/halk_ekmek.png" alt="halk_ekmek">
                                                     <span>Halk Ekmek<input name="gida" value="halk_ekmek" id="halk_ekmek" type="radio" class="btnGr"></span>
                                                 </div>
                                             </label>
-                                            <label for="ntm" class="col-md-3 col-sm-4">
+                                            <label for="nestle" class="col-md-3 col-sm-4">
                                                 <div class="quiz_block_body_list_item_content_block" data-class=".group_1" data-id="#nestle">
                                                     <img src="img/candidates/muhendislik/gida/nestle.png" alt="nestle">
                                                     <span>Nestle<input name="gida" value="nestle" id="nestle" type="radio" class="btnGr"></span>
@@ -502,7 +503,7 @@
                                             İnşaat
                                         </h1>
                                         <div class="quiz_block_body_list_item_content row">
-                                            <label for="xiaomi" class="col-md-3 col-sm-4">
+                                            <label for="yda" class="col-md-3 col-sm-4">
                                                 <div class="quiz_block_body_list_item_content_block" data-class=".group_1" data-id="#yda">
                                                     <img src="img/candidates/muhendislik/insaat/yda.png" alt="yda">
                                                     <span>YDA <input name="insaat" value="yda" id="yda" type="radio" class="btnGr"></span>
@@ -516,38 +517,38 @@
                                             Kimya
                                         </h1>
                                         <div class="quiz_block_body_list_item_content row">
-                                            <label for="xiaomi" class="col-md-3 col-sm-4">
+                                            <label for="astra_zeneca" class="col-md-3 col-sm-4">
                                                 <div class="quiz_block_body_list_item_content_block" data-class=".group_1" data-id="#astra_zeneca">
                                                     <img src="img/candidates/muhendislik/kimya/astra_zeneca.png" alt="astra_zeneca">
-                                                    <span>Astra Zeneca<input name="kimya" value="xastra_zenecaiaomi" id="astra_zeneca" type="radio" class="btnGr"></span>
+                                                    <span>Astra Zeneca<input name="kimya" value="astra_zeneca" id="astra_zeneca" type="radio" class="btnGr"></span>
                                                 </div>
                                             </label>
 
-                                            <label for="turksat" class="col-md-3 col-sm-4">
+                                            <label for="borcelik" class="col-md-3 col-sm-4">
                                                 <div class="quiz_block_body_list_item_content_block" data-class=".group_1" data-id="#borcelik">
                                                     <img src="img/candidates/muhendislik/kimya/borcelik.png" alt="borcelik">
                                                     <span>Borçelik<input name="kimya" value="borcelik" id="borcelik" type="radio" class="btnGr"></span>
                                                 </div>
                                             </label>
-                                            <label for="ntm" class="col-md-3 col-sm-4">
+                                            <label for="dsm" class="col-md-3 col-sm-4">
                                                 <div class="quiz_block_body_list_item_content_block" data-class=".group_1" data-id="#dsm">
                                                     <img src="img/candidates/muhendislik/kimya/dsm.png" alt="dsm">
                                                     <span>DSM<input name="kimya" value="dsm" id="dsm" type="radio" class="btnGr"></span>
                                                 </div>
                                             </label>
-                                            <label for="kingston" class="col-md-3 col-sm-4">
+                                            <label for="eyup_sabri_tuncer" class="col-md-3 col-sm-4">
                                                 <div class="quiz_block_body_list_item_content_block" data-class=".group_1" data-id="#eyup_sabri_tuncer">
                                                     <img src="img/candidates/muhendislik/kimya/eyup_sabri_tuncer.png" alt="eyup_sabri_tuncer">
                                                     <span>Eyüp Sabri Tuncer<input name="kimya" value="eyup_sabri_tuncer" id="eyup_sabri_tuncer" type="radio" class="btnGr"></span>
                                                 </div>
                                             </label>
-                                            <label for="logitech" class="col-md-3 col-sm-4">
+                                            <label for="pfizer" class="col-md-3 col-sm-4">
                                                 <div class="quiz_block_body_list_item_content_block" data-class=".group_1" data-id="#pfizer">
                                                     <img src="img/candidates/muhendislik/kimya/pfizer.png" alt="pfizer">
                                                     <span>Pfizer <input name="kimya" value="pfizer" id="pfizer" type="radio" class="btnGr"></span>
                                                 </div>
                                             </label>
-                                            <label for="vestel-elec" class="col-md-3 col-sm-4">
+                                            <label for="sisecam" class="col-md-3 col-sm-4">
                                                 <div class="quiz_block_body_list_item_content_block" data-class=".group_1" data-id="#sisecam">
                                                     <img src="img/candidates/muhendislik/kimya/sisecam.png" alt="sisecam">
                                                     <span>Şişecam<input name="kimya" value="sisecam" id="sisecam" type="radio" class="btnGr"></span>
@@ -562,7 +563,7 @@
                                             Maden
                                         </h1>
                                         <div class="quiz_block_body_list_item_content row">
-                                            <label for="xiaomi" class="col-md-3 col-sm-4">
+                                            <label for="anagold" class="col-md-3 col-sm-4">
                                                 <div class="quiz_block_body_list_item_content_block" data-class=".group_1" data-id="#anagold">
                                                     <img src="img/candidates/muhendislik/maden/anagold.png" alt="anagold">
                                                     <span>Anagold <input name="maden" value="anagold" id="anagold" type="radio" class="btnGr"></span>
@@ -577,31 +578,31 @@
                                             Makina
                                         </h1>
                                         <div class="quiz_block_body_list_item_content row">
-                                            <label for="xiaomi" class="col-md-3 col-sm-4">
+                                            <label for="anova" class="col-md-3 col-sm-4">
                                                 <div class="quiz_block_body_list_item_content_block" data-class=".group_1" data-id="#anova">
                                                     <img src="img/candidates/muhendislik/makina/anova.png" alt="anova">
                                                     <span>Anova <input name="machine" value="anova" id="anova" type="radio" class="btnGr"></span>
                                                 </div>
                                             </label>
-                                            <label for="turksat" class="col-md-3 col-sm-4">
+                                            <label for="bosch_machine" class="col-md-3 col-sm-4">
                                                 <div class="quiz_block_body_list_item_content_block" data-class=".group_1" data-id="#bosch_machine">
                                                     <img src="img/candidates/muhendislik/makina/bosch.png" alt="bosch_machine">
                                                     <span>Bosch <input name="machine" value="bosch_machine" id="bosch_machine" type="radio" class="btnGr"></span>
                                                 </div>
                                             </label>
-                                            <label for="ntm" class="col-md-3 col-sm-4">
+                                            <label for="fnss" class="col-md-3 col-sm-4">
                                                 <div class="quiz_block_body_list_item_content_block" data-class=".group_1" data-id="#fnss">
                                                     <img src="img/candidates/muhendislik/makina/fnss.png" alt="fnss">
                                                     <span>FNSS <input name="machine" value="fnss" id="fnss" type="radio" class="btnGr"></span>
                                                 </div>
                                             </label>
-                                            <label for="kingston" class="col-md-3 col-sm-4">
+                                            <label for="tubitak" class="col-md-3 col-sm-4">
                                                 <div class="quiz_block_body_list_item_content_block" data-class=".group_1" data-id="#tubitak">
                                                     <img src="img/candidates/muhendislik/makina/tubitak_sage.png" alt="tubitak">
                                                     <span>Tübitak Sage <input name="machine" value="tubitak" id="tubitak" type="radio" class="btnGr"></span>
                                                 </div>
                                             </label>
-                                            <label for="logitech" class="col-md-3 col-sm-4">
+                                            <label for="vestel-machine" class="col-md-3 col-sm-4">
                                                 <div class="quiz_block_body_list_item_content_block" data-class=".group_1" data-id="#vestel-machine">
                                                     <img src="img/candidates/muhendislik/makina/vestel.png" alt="vestel-machine">
                                                     <span>Vestel <input name="machine" value="vestel-machine" id="vestel-machine" type="radio" class="btnGr"></span>
@@ -617,25 +618,25 @@
                                             Otomotiv
                                         </h1>
                                         <div class="quiz_block_body_list_item_content row">
-                                            <label for="xiaomi" class="col-md-3 col-sm-4">
+                                            <label for="ford_otosan" class="col-md-3 col-sm-4">
                                                 <div class="quiz_block_body_list_item_content_block" data-class=".group_1" data-id="#ford_otosan">
                                                     <img src="img/candidates/muhendislik/otomotiv/ford_otosan.png" alt="ford_otosan">
                                                     <span>Ford Otosan <input name="otomotive" value="ford_otosan" id="ford_otosan" type="radio" class="btnGr"></span>
                                                 </div>
                                             </label>
-                                            <label for="turksat" class="col-md-3 col-sm-4">
+                                            <label for="mercedes" class="col-md-3 col-sm-4">
                                                 <div class="quiz_block_body_list_item_content_block" data-class=".group_1" data-id="#mercedes">
                                                     <img src="img/candidates/muhendislik/otomotiv/mercedes_benz.png" alt="mercedes">
                                                     <span>Merdeces Benz <input name="otomotive" value="mercedes" id="mercedes" type="radio" class="btnGr"></span>
                                                 </div>
                                             </label>
-                                            <label for="ntm" class="col-md-3 col-sm-4">
+                                            <label for="renault" class="col-md-3 col-sm-4">
                                                 <div class="quiz_block_body_list_item_content_block" data-class=".group_1" data-id="#renault">
                                                     <img src="img/candidates/muhendislik/otomotiv/renault.png" alt="renault">
                                                     <span>Renault <input name="otomotive" value="renault" id="renault" type="radio" class="btnGr"></span>
                                                 </div>
                                             </label>
-                                            <label for="kingston" class="col-md-3 col-sm-4">
+                                            <label for="toyota" class="col-md-3 col-sm-4">
                                                 <div class="quiz_block_body_list_item_content_block" data-class=".group_1" data-id="#toyota">
                                                     <img src="img/candidates/muhendislik/otomotiv/toyota.png" alt="toyota">
                                                     <span>Toyota <input name="otomotive" value="toyota" id="toyota" type="radio" class="btnGr"></span>
@@ -650,25 +651,25 @@
                                             Oyun
                                         </h1>
                                         <div class="quiz_block_body_list_item_content row">
-                                            <label for="xiaomi" class="col-md-3 col-sm-4">
+                                            <label for="mild_mania" class="col-md-3 col-sm-4">
                                                 <div class="quiz_block_body_list_item_content_block" data-class=".group_1" data-id="#mild_mania">
                                                     <img src="img/candidates/muhendislik/oyun/mild_mania.png" alt="mild_mania">
                                                     <span>Mild Mania <input name="game" value="mild_mania" id="mild_mania" type="radio" class="btnGr"></span>
                                                 </div>
                                             </label>
-                                            <label for="turksat" class="col-md-3 col-sm-4">
+                                            <label for="panteon" class="col-md-3 col-sm-4">
                                                 <div class="quiz_block_body_list_item_content_block" data-class=".group_1" data-id="#panteon">
                                                     <img src="img/candidates/muhendislik/oyun/panteon.png" alt="panteon">
                                                     <span>Panteon <input name="game" value="panteon" id="panteon" type="radio" class="btnGr"></span>
                                                 </div>
                                             </label>
-                                            <label for="ntm" class="col-md-3 col-sm-4">
+                                            <label for="riot_games" class="col-md-3 col-sm-4">
                                                 <div class="quiz_block_body_list_item_content_block" data-class=".group_1" data-id="#riot_games">
                                                     <img src="img/candidates/muhendislik/oyun/riot_games.png" alt="riot_games">
                                                     <span>Riot Games <input name="game" value="riot_games" id="riot_games" type="radio" class="btnGr"></span>
                                                 </div>
                                             </label>
-                                            <label for="kingston" class="col-md-3 col-sm-4">
+                                            <label for="tencent_games" class="col-md-3 col-sm-4">
                                                 <div class="quiz_block_body_list_item_content_block" data-class=".group_1" data-id="#tencent_games">
                                                     <img src="img/candidates/muhendislik/oyun/tencent_games.png" alt="tencent_games">
                                                     <span>Tencent Games <input name="game" value="tencent_games" id="tencent_games" type="radio" class="btnGr"></span>
@@ -682,37 +683,37 @@
                                             Yazılım
                                         </h1>
                                         <div class="quiz_block_body_list_item_content row">
-                                            <label for="xiaomi" class="col-md-3 col-sm-4">
+                                            <label for="armada" class="col-md-3 col-sm-4">
                                                 <div class="quiz_block_body_list_item_content_block" data-class=".group_1" data-id="#armada">
                                                     <img src="img/candidates/muhendislik/yazilim/armada.png" alt="armada">
                                                     <span>Armada <input name="software" value="armada" id="armada" type="radio" class="btnGr"></span>
                                                 </div>
                                             </label>
-                                            <label for="turksat" class="col-md-3 col-sm-4">
+                                            <label for="kod_a" class="col-md-3 col-sm-4">
                                                 <div class="quiz_block_body_list_item_content_block" data-class=".group_1" data-id="#kod_a">
                                                     <img src="img/candidates/muhendislik/yazilim/kod_a.png" alt="kod_a">
                                                     <span>Kod-A <input name="software" value="kod_a" id="kod_a" type="radio" class="btnGr"></span>
                                                 </div>
                                             </label>
-                                            <label for="ntm" class="col-md-3 col-sm-4">
+                                            <label for="microsoft" class="col-md-3 col-sm-4">
                                                 <div class="quiz_block_body_list_item_content_block" data-class=".group_1" data-id="#microsoft">
                                                     <img src="img/candidates/muhendislik/yazilim/microsoft.png" alt="microsoft">
                                                     <span>Microsoft <input name="software" value="microsoft" id="microsoft" type="radio" class="btnGr"></span>
                                                 </div>
                                             </label>
-                                            <label for="kingston" class="col-md-3 col-sm-4">
+                                            <label for="mobiliva" class="col-md-3 col-sm-4">
                                                 <div class="quiz_block_body_list_item_content_block" data-class=".group_1" data-id="#mobiliva">
                                                     <img src="img/candidates/muhendislik/yazilim/mobiliva.png" alt="mobiliva">
                                                     <span>Mobiliva <input name="software" value="mobiliva" id="mobiliva" type="radio" class="btnGr"></span>
                                                 </div>
                                             </label>
-                                            <label for="logitech" class="col-md-3 col-sm-4">
+                                            <label for="numesys" class="col-md-3 col-sm-4">
                                                 <div class="quiz_block_body_list_item_content_block" data-class=".group_1" data-id="#numesys">
                                                     <img src="img/candidates/muhendislik/yazilim/numesys.png" alt="numesys">
                                                     <span>Numesys <input name="software" value="numesys" id="numesys" type="radio" class="btnGr"></span>
                                                 </div>
                                             </label>
-                                            <label for="vestel-elec" class="col-md-3 col-sm-4">
+                                            <label for="turksat-soft" class="col-md-3 col-sm-4">
                                                 <div class="quiz_block_body_list_item_content_block" data-class=".group_1" data-id="#turksat-soft">
                                                     <img src="img/candidates/muhendislik/yazilim/turksat.png" alt="turksat-soft">
                                                     <span>Türksat <input name="software" value="turksat-soft" id="turksat-soft" type="radio" class="btnGr"></span>
@@ -722,8 +723,6 @@
                                         <hr>
                                     </li>
                                 </ul>
-
-                                </form>
                             </div>
                         </div>
                     </div>
@@ -740,43 +739,43 @@
                                             Edebiyat
                                         </h1>
                                         <div class="quiz_block_body_list_item_content row">
-                                            <label for="xiaomi" class="col-md-3 col-sm-4">
+                                            <label for="ahmet_umit" class="col-md-3 col-sm-4">
                                                 <div class="quiz_block_body_list_item_content_block" data-class=".group_1" data-id="#ahmet_umit">
                                                     <img src="img/candidates/kultur_sanat/edebiyat/ahmet_umit.png" alt="ahmet_umit">
                                                     <span>Ahmet Ümit <input name="edebiyat" value="ahmet_umit" id="ahmet_umit" type="radio" class="btnGr"></span>
                                                 </div>
                                             </label>
-                                            <label for="turksat" class="col-md-3 col-sm-4">
+                                            <label for="buket_uzuner" class="col-md-3 col-sm-4">
                                                 <div class="quiz_block_body_list_item_content_block" data-class=".group_1" data-id="#buket_uzuner">
                                                     <img src="img/candidates/kultur_sanat/edebiyat/buket_uzuner.png" alt="buket_uzuner">
                                                     <span>Buket Uzuner <input name="edebiyat" value="buket_uzuner" id="buket_uzuner" type="radio" class="btnGr"></span>
                                                 </div>
                                             </label>
-                                            <label for="ntm" class="col-md-3 col-sm-4">
+                                            <label for="canan_tan" class="col-md-3 col-sm-4">
                                                 <div class="quiz_block_body_list_item_content_block" data-class=".group_1" data-id="#canan_tan">
                                                     <img src="img/candidates/kultur_sanat/edebiyat/canan_tan.png" alt="canan_tan">
                                                     <span>Canan Tan <input name="edebiyat" value="canan_tan" id="canan_tan" type="radio" class="btnGr"></span>
                                                 </div>
                                             </label>
-                                            <label for="kingston" class="col-md-3 col-sm-4">
+                                            <label for="ercan_kesal" class="col-md-3 col-sm-4">
                                                 <div class="quiz_block_body_list_item_content_block" data-class=".group_1" data-id="#ercan_kesal">
                                                     <img src="img/candidates/kultur_sanat/edebiyat/ercan_kesal.png" alt="ercan_kesal">
                                                     <span>Ercan Kesal <input name="edebiyat" value="ercan_kesal" id="ercan_kesal" type="radio" class="btnGr"></span>
                                                 </div>
                                             </label>
-                                            <label for="logitech" class="col-md-3 col-sm-4">
+                                            <label for="kafa_dergisi" class="col-md-3 col-sm-4">
                                                 <div class="quiz_block_body_list_item_content_block" data-class=".group_1" data-id="#kafa_dergisi">
                                                     <img src="img/candidates/kultur_sanat/edebiyat/kafa_dergisi.png" alt="kafa_dergisi">
                                                     <span>Kafa Dergisi <input name="edebiyat" value="kafa_dergisi" id="kafa_dergisi" type="radio" class="btnGr"></span>
                                                 </div>
                                             </label>
-                                            <label for="vestel-elec" class="col-md-3 col-sm-4">
+                                            <label for="mahir_unsal" class="col-md-3 col-sm-4">
                                                 <div class="quiz_block_body_list_item_content_block" data-class=".group_1" data-id="#mahir_unsal">
                                                     <img src="img/candidates/kultur_sanat/edebiyat/mahir_unsal_eris.png" alt="mahir_unsal">
                                                     <span>Mahir Ünsal Eris <input name="edebiyat" value="mahir_unsal" id="mahir_unsal" type="radio" class="btnGr"></span>
                                                 </div>
                                             </label>
-                                            <label for="asus" class="col-md-3 col-sm-4">
+                                            <label for="zeynep_selvili" class="col-md-3 col-sm-4">
                                                 <div class="quiz_block_body_list_item_content_block" data-class=".group_1" data-id="#zeynep_selvili">
                                                     <img src="img/candidates/kultur_sanat/edebiyat/zeynep_selvili_carmikli.png" alt="zeynep_selvili">
                                                     <span>Zeynep Selvili Çarmıklı <input name="edebiyat" value="zeynep_selvili" id="zeynep_selvili" type="radio" class="btnGr"></span>
@@ -790,43 +789,43 @@
                                             Erkek Televizyon Oyuncusu
                                         </h1>
                                         <div class="quiz_block_body_list_item_content row">
-                                            <label for="xiaomi" class="col-md-3 col-sm-4">
+                                            <label for="bugra_gulsoy" class="col-md-3 col-sm-4">
                                                 <div class="quiz_block_body_list_item_content_block" data-class=".group_1" data-id="#bugra_gulsoy">
                                                     <img src="img/candidates/kultur_sanat/erkek_televizyon_oyuncusu/bugra_gulsoy.png" alt="bugra_gulsoy">
                                                     <span>Buğra Gülsoy<input name="erkek_televizyon_oyuncusu" value="bugra_gulsoy" id="bugra_gulsoy" type="radio" class="btnGr"></span>
                                                 </div>
                                             </label>
-                                            <label for="xiaomi" class="col-md-3 col-sm-4">
+                                            <label for="cagatay_ulusoy" class="col-md-3 col-sm-4">
                                                 <div class="quiz_block_body_list_item_content_block" data-class=".group_1" data-id="#cagatay_ulusoy">
                                                     <img src="img/candidates/kultur_sanat/erkek_televizyon_oyuncusu/cagatay_ulusoy.png" alt="cagatay_ulusoy">
                                                     <span>Çağatay Ulusoy<input name="erkek_televizyon_oyuncusu" value="cagatay_ulusoy" id="cagatay_ulusoy" type="radio" class="btnGr"></span>
                                                 </div>
                                             </label>
-                                            <label for="xiaomi" class="col-md-3 col-sm-4">
+                                            <label for="erkan_kocak" class="col-md-3 col-sm-4">
                                                 <div class="quiz_block_body_list_item_content_block" data-class=".group_1" data-id="#erkan_kocak">
                                                     <img src="img/candidates/kultur_sanat/erkek_televizyon_oyuncusu/erkan_kolcak_kostendil.png" alt="erkan_kocak">
                                                     <span>Erkan Kolçak Köstendil<input name="erkek_televizyon_oyuncusu" value="erkan_kocak" id="erkan_kocak" type="radio" class="btnGr"></span>
                                                 </div>
                                             </label>
-                                            <label for="xiaomi" class="col-md-3 col-sm-4">
+                                            <label for="ibrahim_celikkol" class="col-md-3 col-sm-4">
                                                 <div class="quiz_block_body_list_item_content_block" data-class=".group_1" data-id="#ibrahim_celikkol">
                                                     <img src="img/candidates/kultur_sanat/erkek_televizyon_oyuncusu/ibrahim_celikkol.png" alt="ibrahim_celikkol">
                                                     <span>İbrahim Çelikkol<input name="erkek_televizyon_oyuncusu" value="ibrahim_celikkol" id="ibrahim_celikkol" type="radio" class="btnGr"></span>
                                                 </div>
                                             </label>
-                                            <label for="xiaomi" class="col-md-3 col-sm-4">
+                                            <label for="mert_firat" class="col-md-3 col-sm-4">
                                                 <div class="quiz_block_body_list_item_content_block" data-class=".group_1" data-id="#mert_firat">
                                                     <img src="img/candidates/kultur_sanat/erkek_televizyon_oyuncusu/mert_firat.png" alt="mert_firat">
                                                     <span>Mert Fırat<input name="erkek_televizyon_oyuncusu" value="mert_firat" id="mert_firat" type="radio" class="btnGr"></span>
                                                 </div>
                                             </label>
-                                            <label for="xiaomi" class="col-md-3 col-sm-4">
+                                            <label for="saygin_soysal" class="col-md-3 col-sm-4">
                                                 <div class="quiz_block_body_list_item_content_block" data-class=".group_1" data-id="#saygin_soysal">
                                                     <img src="img/candidates/kultur_sanat/erkek_televizyon_oyuncusu/saygin_soysal.png" alt="saygin_soysal">
                                                     <span>Saygın Soysal<input name="erkek_televizyon_oyuncusu" value="saygin_soysal" id="saygin_soysal" type="radio" class="btnGr"></span>
                                                 </div>
                                             </label>
-                                            <label for="xiaomi" class="col-md-3 col-sm-4">
+                                            <label for="serkan_keskin" class="col-md-3 col-sm-4">
                                                 <div class="quiz_block_body_list_item_content_block" data-class=".group_1" data-id="#schneider">
                                                     <img src="img/candidates/kultur_sanat/erkek_televizyon_oyuncusu/serkan_keskin.png" alt="serkan_keskin">
                                                     <span>Serkan Keskin<input name="erkek_televizyon_oyuncusu" value="serkan_keskin" id="serkan_keskin" type="radio" class="btnGr"></span>
@@ -840,43 +839,43 @@
                                             Kadın Televizyon Oyuncusu
                                         </h1>
                                         <div class="quiz_block_body_list_item_content row">
-                                            <label for="xiaomi" class="col-md-3 col-sm-4">
+                                            <label for="bade_iscil" class="col-md-3 col-sm-4">
                                                 <div class="quiz_block_body_list_item_content_block" data-class=".group_1" data-id="#bade_iscil">
                                                     <img src="img/candidates/kultur_sanat/kadin_televizyon_oyuncusu/bade_iscil.png" alt="bade_iscil">
                                                     <span>Bade İşcil<input name="kadin_televizyon_oyuncusu" value="bade_iscil" id="bade_iscil" type="radio" class="btnGr"></span>
                                                 </div>
                                             </label>
-                                            <label for="xiaomi" class="col-md-3 col-sm-4">
+                                            <label for="bensu_soral" class="col-md-3 col-sm-4">
                                                 <div class="quiz_block_body_list_item_content_block" data-class=".group_1" data-id="#bensu_soral">
                                                     <img src="img/candidates/kultur_sanat/kadin_televizyon_oyuncusu/bensu_soral.png" alt="bensu_soral">
                                                     <span>Bensu Soral<input name="kadin_televizyon_oyuncusu" value="bensu_soral" id="bensu_soral" type="radio" class="btnGr"></span>
                                                 </div>
                                             </label>
-                                            <label for="xiaomi" class="col-md-3 col-sm-4">
+                                            <label for="ceren_moray" class="col-md-3 col-sm-4">
                                                 <div class="quiz_block_body_list_item_content_block" data-class=".group_1" data-id="#ceren_moray">
                                                     <img src="img/candidates/kultur_sanat/kadin_televizyon_oyuncusu/ceren_moray.png" alt="ceren_moray">
                                                     <span>Ceren Monay<input name="kadin_televizyon_oyuncusu" value="ceren_moray" id="ceren_moray" type="radio" class="btnGr"></span>
                                                 </div>
                                             </label>
-                                            <label for="xiaomi" class="col-md-3 col-sm-4">
+                                            <label for="deniz_cakir" class="col-md-3 col-sm-4">
                                                 <div class="quiz_block_body_list_item_content_block" data-class=".group_1" data-id="#deniz_cakir">
                                                     <img src="img/candidates/kultur_sanat/kadin_televizyon_oyuncusu/deniz_cakir.png" alt="deniz_cakir">
                                                     <span>Deniz Çakır<input name="kadin_televizyon_oyuncusu" value="deniz_cakir" id="deniz_cakir" type="radio" class="btnGr"></span>
                                                 </div>
                                             </label>
-                                            <label for="xiaomi" class="col-md-3 col-sm-4">
+                                            <label for="hazal_kaya" class="col-md-3 col-sm-4">
                                                 <div class="quiz_block_body_list_item_content_block" data-class=".group_1" data-id="#hazal_kaya">
                                                     <img src="img/candidates/kultur_sanat/kadin_televizyon_oyuncusu/hazal_kaya.png" alt="hazal_kaya">
                                                     <span>Hazal Kaya<input name="kadin_televizyon_oyuncusu" value="hazal_kaya" id="hazal_kaya" type="radio" class="btnGr"></span>
                                                 </div>
                                             </label>
-                                            <label for="xiaomi" class="col-md-3 col-sm-4">
+                                            <label for="sedef_avci" class="col-md-3 col-sm-4">
                                                 <div class="quiz_block_body_list_item_content_block" data-class=".group_1" data-id="#sedef_avci">
                                                     <img src="img/candidates/kultur_sanat/kadin_televizyon_oyuncusu/sedef_avci.png" alt="sedef_avci">
                                                     <span>Sedef Avcı<input name="kadin_televizyon_oyuncusu" value="sedef_avci" id="sedef_avci" type="radio" class="btnGr"></span>
                                                 </div>
                                             </label>
-                                            <label for="xiaomi" class="col-md-3 col-sm-4">
+                                            <label for="tuba_buyukustun" class="col-md-3 col-sm-4">
                                                 <div class="quiz_block_body_list_item_content_block" data-class=".group_1" data-id="#tuba_buyukustun">
                                                     <img src="img/candidates/kultur_sanat/kadin_televizyon_oyuncusu/tuba_buyukustun.png" alt="tuba_buyukustun">
                                                     <span>Tuba Büyüküstün<input name="kadin_televizyon_oyuncusu" value="tuba_buyukustun" id="tuba_buyukustun" type="radio" class="btnGr"></span>
@@ -888,73 +887,73 @@
                                     <li class="quiz_block_body_list_item">
                                         <h1 class="quiz_block_body_list_item_title">Müzik</h1>
                                         <div class="quiz_block_body_list_item_content row">
-                                            <label for="xiaomi" class="col-md-3 col-sm-4">
+                                            <label for="can_bonomo" class="col-md-3 col-sm-4">
                                                 <div class="quiz_block_body_list_item_content_block" data-class=".group_1" data-id="#can_bonomo">
                                                     <img src="img/candidates/kultur_sanat/muzik/can_bonomo.png" alt="can_bonomo">
                                                     <span>Can Bonomo<input name="muzik" value="can_bonomo" id="can_bonomo" type="radio" class="btnGr"></span>
                                                 </div>
                                             </label>
-                                            <label for="xiaomi" class="col-md-3 col-sm-4">
+                                            <label for="deeperise" class="col-md-3 col-sm-4">
                                                 <div class="quiz_block_body_list_item_content_block" data-class=".group_1" data-id="#deeperise">
                                                     <img src="img/candidates/kultur_sanat/muzik/deeperise.png" alt="deeperise">
                                                     <span>Deeperise<input name="muzik" value="deeperise" id="deeperise" type="radio" class="btnGr"></span>
                                                 </div>
                                             </label>
-                                            <label for="xiaomi" class="col-md-3 col-sm-4">
-                                                <div class="quiz_block_body_list_item_content_block" data-class=".group_1" data-id="#emre_aydın">
-                                                    <img src="img/candidates/kultur_sanat/muzik/emre_aydın.png" alt="emre_aydın">
-                                                    <span>Emre Aydın<input name="muzik" value="emre_aydın" id="emre_aydın" type="radio" class="btnGr"></span>
+                                            <label for="emre_aydin" class="col-md-3 col-sm-4">
+                                                <div class="quiz_block_body_list_item_content_block" data-class=".group_1" data-id="#emre_aydin">
+                                                    <img src="img/candidates/kultur_sanat/muzik/emre_aydin.png" alt="emre_aydin">
+                                                    <span>Emre Aydın<input name="muzik" value="emre_aydin" id="emre_aydin" type="radio" class="btnGr"></span>
                                                 </div>
                                             </label>
-                                            <label for="xiaomi" class="col-md-3 col-sm-4">
+                                            <label for="gokhan_turkmen" class="col-md-3 col-sm-4">
                                                 <div class="quiz_block_body_list_item_content_block" data-class=".group_1" data-id="#gokhan_turkmen">
                                                     <img src="img/candidates/kultur_sanat/muzik/gokhan_turkmen.png" alt="gokhan_turkmen">
                                                     <span>Gökhan Türkmen<input name="muzik" value="gokhan_turkmen" id="gokhan_turkmen" type="radio" class="btnGr"></span>
                                                 </div>
                                             </label>
-                                            <label for="xiaomi" class="col-md-3 col-sm-4">
+                                            <label for="gripin" class="col-md-3 col-sm-4">
                                                 <div class="quiz_block_body_list_item_content_block" data-class=".group_1" data-id="#gripin">
                                                     <img src="img/candidates/kultur_sanat/muzik/gripin.png" alt="gripin">
-                                                    <span>Gripin<input name="muzik" value="bade_iscil" id="gripin" type="radio" class="btnGr"></span>
+                                                    <span>Gripin<input name="muzik" value="gripin" id="gripin" type="radio" class="btnGr"></span>
                                                 </div>
                                             </label>
-                                            <label for="xiaomi" class="col-md-3 col-sm-4">
+                                            <label for="kenan_dogulu" class="col-md-3 col-sm-4">
                                                 <div class="quiz_block_body_list_item_content_block" data-class=".group_1" data-id="#kenan_dogulu">
                                                     <img src="img/candidates/kultur_sanat/muzik/kenan_dogulu.png" alt="kenan_dogulu">
                                                     <span>Kenan Doğulu<input name="muzik" value="kenan_dogulu" id="kenan_dogulu" type="radio" class="btnGr"></span>
                                                 </div>
                                             </label>
-                                            <label for="xiaomi" class="col-md-3 col-sm-4">
+                                            <label for="merve_ozbey" class="col-md-3 col-sm-4">
                                                 <div class="quiz_block_body_list_item_content_block" data-class=".group_1" data-id="#merve_ozbey">
                                                     <img src="img/candidates/kultur_sanat/muzik/merve_ozbey.png" alt="merve_ozbey">
                                                     <span>Merve Özbey<input name="muzik" value="merve_ozbey" id="merve_ozbey" type="radio" class="btnGr"></span>
                                                 </div>
                                             </label>
-                                            <label for="xiaomi" class="col-md-3 col-sm-4">
+                                            <label for="nilipek" class="col-md-3 col-sm-4">
                                                 <div class="quiz_block_body_list_item_content_block" data-class=".group_1" data-id="#nilipek">
                                                     <img src="img/candidates/kultur_sanat/muzik/nilipek.png" alt="nilipek">
                                                     <span>Nilipek<input name="muzik" value="nilipek" id="nilipek" type="radio" class="btnGr"></span>
                                                 </div>
                                             </label>
-                                            <label for="xiaomi" class="col-md-3 col-sm-4">
+                                            <label for="pera" class="col-md-3 col-sm-4">
                                                 <div class="quiz_block_body_list_item_content_block" data-class=".group_1" data-id="#pera">
                                                     <img src="img/candidates/kultur_sanat/muzik/pera.png" alt="pera">
                                                     <span>Pera<input name="muzik" value="pera" id="pera" type="radio" class="btnGr"></span>
                                                 </div>
                                             </label>
-                                            <label for="xiaomi" class="col-md-3 col-sm-4">
+                                            <label for="pinhani" class="col-md-3 col-sm-4">
                                                 <div class="quiz_block_body_list_item_content_block" data-class=".group_1" data-id="#pinhani">
                                                     <img src="img/candidates/kultur_sanat/muzik/pinhani.png" alt="pinhani">
                                                     <span>Pinhani<input name="muzik" value="pinhani" id="pinhani" type="radio" class="btnGr"></span>
                                                 </div>
                                             </label>
-                                            <label for="xiaomi" class="col-md-3 col-sm-4">
+                                            <label for="sila" class="col-md-3 col-sm-4">
                                                 <div class="quiz_block_body_list_item_content_block" data-class=".group_1" data-id="#sila">
                                                     <img src="img/candidates/kultur_sanat/muzik/sila.png" alt="sila">
                                                     <span>Sıla<input name="muzik" value="sila" id="sila" type="radio" class="btnGr"></span>
                                                 </div>
                                             </label>
-                                            <label for="xiaomi" class="col-md-3 col-sm-4">
+                                            <label for="yasemin_mori" class="col-md-3 col-sm-4">
                                                 <div class="quiz_block_body_list_item_content_block" data-class=".group_1" data-id="#yasemin_mori">
                                                     <img src="img/candidates/kultur_sanat/muzik/yasemin_mori.png" alt="yasemin_mori">
                                                     <span>Yasemin Mori<input name="muzik" value="yasemin_mori" id="yasemin_mori" type="radio" class="btnGr"></span>
@@ -968,19 +967,19 @@
                                             Radyo
                                         </h1>
                                         <div class="quiz_block_body_list_item_content row">
-                                            <label for="xiaomi" class="col-md-3 col-sm-4">
+                                            <label for="cem_arslan" class="col-md-3 col-sm-4">
                                                 <div class="quiz_block_body_list_item_content_block" data-class=".group_1" data-id="#cem_arslan">
                                                     <img src="img/candidates/kultur_sanat/radyo/cem_arslan.png" alt="cem_arslan">
                                                     <span>Cem Arslan<input name="radyo" value="cem_arslan" id="cem_arslan" type="radio" class="btnGr"></span>
                                                 </div>
                                             </label>
-                                            <label for="xiaomi" class="col-md-3 col-sm-4">
+                                            <label for="ozgur_aksuna" class="col-md-3 col-sm-4">
                                                 <div class="quiz_block_body_list_item_content_block" data-class=".group_1" data-id="#ozgur_aksuna">
                                                     <img src="img/candidates/kultur_sanat/radyo/ozgur_aksuna.png" alt="ozgur_aksuna">
                                                     <span>Özgür Aksuna<input name="radyo" value="ozgur_aksuna" id="ozgur_aksuna" type="radio" class="btnGr"></span>
                                                 </div>
                                             </label>
-                                            <label for="xiaomi" class="col-md-3 col-sm-4">
+                                            <label for="zeki_kayahan_coskun" class="col-md-3 col-sm-4">
                                                 <div class="quiz_block_body_list_item_content_block" data-class=".group_1" data-id="#zeki_kayahan_coskun">
                                                     <img src="img/candidates/kultur_sanat/radyo/zeki_kayahan_coskun.png" alt="zeki_kayahan_coskun">
                                                     <span>Zeki Kayahan Coşkun<input name="radyo" value="zeki_kayahan_coskun" id="zeki_kayahan_coskun" type="radio" class="btnGr"></span>
@@ -994,19 +993,19 @@
                                             Sinema
                                         </h1>
                                         <div class="quiz_block_body_list_item_content row">
-                                            <label for="xiaomi" class="col-md-3 col-sm-4">
+                                            <label for="balamir_emren" class="col-md-3 col-sm-4">
                                                 <div class="quiz_block_body_list_item_content_block" data-class=".group_1" data-id="#balamir_emren">
                                                     <img src="img/candidates/kultur_sanat/sinema/balamir_emren.png" alt="balamir_emren">
                                                     <span>Balamir Emren<input name="sinema" value="balamir_emren" id="balamir_emren" type="radio" class="btnGr"></span>
                                                 </div>
                                             </label>
-                                            <label for="xiaomi" class="col-md-3 col-sm-4">
+                                            <label for="engin_altan_duzyatan" class="col-md-3 col-sm-4">
                                                 <div class="quiz_block_body_list_item_content_block" data-class=".group_1" data-id="#engin_altan_duzyatan">
                                                     <img src="img/candidates/kultur_sanat/sinema/engin_altan_duzyatan.png" alt="engin_altan_duzyatan">
                                                     <span>Engin Altan Düzyatan<input name="sinema" value="engin_altan_duzyatan" id="engin_altan_duzyatan" type="radio" class="btnGr"></span>
                                                 </div>
                                             </label>
-                                            <label for="xiaomi" class="col-md-3 col-sm-4">
+                                            <label for="ezgi_mola" class="col-md-3 col-sm-4">
                                                 <div class="quiz_block_body_list_item_content_block" data-class=".group_1" data-id="#ezgi_mola">
                                                     <img src="img/candidates/kultur_sanat/sinema/ezgi_mola.png" alt="ezgi_mola">
                                                     <span>Ezgi Mola<input name="sinema" value="ezgi_mola" id="ezgi_mola" type="radio" class="btnGr"></span>
@@ -1020,49 +1019,49 @@
                                             Sosyal Medya
                                         </h1>
                                         <div class="quiz_block_body_list_item_content row">
-                                            <label for="xiaomi" class="col-md-3 col-sm-4">
+                                            <label for="babalatv" class="col-md-3 col-sm-4">
                                                 <div class="quiz_block_body_list_item_content_block" data-class=".group_1" data-id="#babalatv">
                                                     <img src="img/candidates/kultur_sanat/sosyal_medya/babalatv.png" alt="babalatv">
                                                     <span>Babala TV<input name="sosyal_medya" value="babalatv" id="babalatv" type="radio" class="btnGr"></span>
                                                 </div>
                                             </label>
-                                            <label for="xiaomi" class="col-md-3 col-sm-4">
+                                            <label for="basak_kablan" class="col-md-3 col-sm-4">
                                                 <div class="quiz_block_body_list_item_content_block" data-class=".group_1" data-id="#basak_kablan">
                                                     <img src="img/candidates/kultur_sanat/sosyal_medya/basak_kablan.png" alt="basak_kablan">
                                                     <span>Başak Kablan<input name="sosyal_medya" value="basak_kablan" id="basak_kablan" type="radio" class="btnGr"></span>
                                                 </div>
                                             </label>
-                                            <label for="xiaomi" class="col-md-3 col-sm-4">
+                                            <label for="cansu_akin" class="col-md-3 col-sm-4">
                                                 <div class="quiz_block_body_list_item_content_block" data-class=".group_1" data-id="#cansu_akin">
                                                     <img src="img/candidates/kultur_sanat/sosyal_medya/cansu_akin.png" alt="cansu_akin">
                                                     <span>Cansu Akın<input name="sosyal_medya" value="cansu_akin" id="cansu_akin" type="radio" class="btnGr"></span>
                                                 </div>
                                             </label>
-                                            <label for="xiaomi" class="col-md-3 col-sm-4">
+                                            <label for="kurcala" class="col-md-3 col-sm-4">
                                                 <div class="quiz_block_body_list_item_content_block" data-class=".group_1" data-id="#kurcala">
                                                     <img src="img/candidates/kultur_sanat/sosyal_medya/kurcala.png" alt="kurcala">
                                                     <span>Kurcala<input name="sosyal_medya" value="kurcala" id="kurcala" type="radio" class="btnGr"></span>
                                                 </div>
                                             </label>
-                                            <label for="xiaomi" class="col-md-3 col-sm-4">
+                                            <label for="pixopat" class="col-md-3 col-sm-4">
                                                 <div class="quiz_block_body_list_item_content_block" data-class=".group_1" data-id="#pixopat">
                                                     <img src="img/candidates/kultur_sanat/sosyal_medya/pixopat.png" alt="pixopat">
                                                     <span>Pixopat<input name="sosyal_medya" value="pixopat" id="pixopat" type="radio" class="btnGr"></span>
                                                 </div>
                                             </label>
-                                            <label for="xiaomi" class="col-md-3 col-sm-4">
+                                            <label for="refikanin_mutfagi" class="col-md-3 col-sm-4">
                                                 <div class="quiz_block_body_list_item_content_block" data-class=".group_1" data-id="#refikanin_mutfagi">
                                                     <img src="img/candidates/kultur_sanat/sosyal_medya/refikanin_mutfagi.png" alt="refikanin_mutfagi">
                                                     <span>Refikanın Mutfağı<input name="sosyal_medya" value="refikanin_mutfagi" id="refikanin_mutfagi" type="radio" class="btnGr"></span>
                                                 </div>
                                             </label>
-                                            <label for="xiaomi" class="col-md-3 col-sm-4">
+                                            <label for="simla_canpolat" class="col-md-3 col-sm-4">
                                                 <div class="quiz_block_body_list_item_content_block" data-class=".group_1" data-id="#simla_canpolat">
                                                     <img src="img/candidates/kultur_sanat/sosyal_medya/simla_canpolat.png" alt="simla_canpolat">
                                                     <span>Simla Canpolat<input name="sosyal_medya" value="simla_canpolat" id="simla_canpolat" type="radio" class="btnGr"></span>
                                                 </div>
                                             </label>
-                                            <label for="xiaomi" class="col-md-3 col-sm-4">
+                                            <label for="whyshy" class="col-md-3 col-sm-4">
                                                 <div class="quiz_block_body_list_item_content_block" data-class=".group_1" data-id="#whyshy">
                                                     <img src="img/candidates/kultur_sanat/sosyal_medya/whyshy.png" alt="whyshy">
                                                     <span>Whyshy<input name="sosyal_medya" value="whyshy" id="whyshy" type="radio" class="btnGr"></span>
@@ -1076,31 +1075,31 @@
                                             Spor
                                         </h1>
                                         <div class="quiz_block_body_list_item_content row">
-                                            <label for="xiaomi" class="col-md-3 col-sm-4">
+                                            <label for="bilal_ciloglu" class="col-md-3 col-sm-4">
                                                 <div class="quiz_block_body_list_item_content_block" data-class=".group_1" data-id="#bilal_ciloglu">
                                                     <img src="img/candidates/kultur_sanat/spor/bilal_ciloglu.png" alt="bilal_ciloglu">
                                                     <span>Bilal Ciloglu<input name="spor" value="bilal_ciloglu" id="bilal_ciloglu" type="radio" class="btnGr"></span>
                                                 </div>
                                             </label>
-                                            <label for="xiaomi" class="col-md-3 col-sm-4">
+                                            <label for="bunyamin_sezer" class="col-md-3 col-sm-4">
                                                 <div class="quiz_block_body_list_item_content_block" data-class=".group_1" data-id="#bunyamin_sezer">
                                                     <img src="img/candidates/kultur_sanat/spor/bunyamin_sezer.png" alt="bunyamin_sezer">
                                                     <span>Bünyamin Sezer<input name="spor" value="bunyamin_sezer" id="bunyamin_sezer" type="radio" class="btnGr"></span>
                                                 </div>
                                             </label>
-                                            <label for="xiaomi" class="col-md-3 col-sm-4">
+                                            <label for="cagla_buyukakcay" class="col-md-3 col-sm-4">
                                                 <div class="quiz_block_body_list_item_content_block" data-class=".group_1" data-id="#cagla_buyukakcay">
                                                     <img src="img/candidates/kultur_sanat/spor/cagla_buyukakcay.png" alt="cagla_buyukakcay">
                                                     <span>Çağla Büyükakçay<input name="spor" value="cagla_buyukakcay" id="cagla_buyukakcay" type="radio" class="btnGr"></span>
                                                 </div>
                                             </label>
-                                            <label for="xiaomi" class="col-md-3 col-sm-4">
+                                            <label for="hursit_atak" class="col-md-3 col-sm-4">
                                                 <div class="quiz_block_body_list_item_content_block" data-class=".group_1" data-id="#hursit_atak">
                                                     <img src="img/candidates/kultur_sanat/spor/hursit_atak.png" alt="hursit_atak">
                                                     <span>Hurşit Atak<input name="spor" value="hursit_atak" id="hursit_atak" type="radio" class="btnGr"></span>
                                                 </div>
                                             </label>
-                                            <label for="xiaomi" class="col-md-3 col-sm-4">
+                                            <label for="nur_tatar" class="col-md-3 col-sm-4">
                                                 <div class="quiz_block_body_list_item_content_block" data-class=".group_1" data-id="#nur_tatar">
                                                     <img src="img/candidates/kultur_sanat/spor/nur_tatar.png" alt="nur_tatar">
                                                     <span>Nur Tatar<input name="spor" value="nur_tatar" id="nur_tatar" type="radio" class="btnGr"></span>
@@ -1114,37 +1113,37 @@
                                             Tiyatro
                                         </h1>
                                         <div class="quiz_block_body_list_item_content row">
-                                            <label for="xiaomi" class="col-md-3 col-sm-4">
+                                            <label for="aylin_kontante" class="col-md-3 col-sm-4">
                                                 <div class="quiz_block_body_list_item_content_block" data-class=".group_1" data-id="#aylin_kontante">
                                                     <img src="img/candidates/kultur_sanat/tiyatro/aylin_kontante.png" alt="aylin_kontante">
                                                     <span>Aylin Kontante<input name="tiyatro" value="aylin_kontante" id="aylin_kontante" type="radio" class="btnGr"></span>
                                                 </div>
                                             </label>
-                                            <label for="xiaomi" class="col-md-3 col-sm-4">
+                                            <label for="caglar_corumlu" class="col-md-3 col-sm-4">
                                                 <div class="quiz_block_body_list_item_content_block" data-class=".group_1" data-id="#caglar_corumlu">
                                                     <img src="img/candidates/kultur_sanat/tiyatro/caglar_corumlu.png" alt="caglar_corumlu">
                                                     <span>Çağlar Çorumlu<input name="tiyatro" value="caglar_corumlu" id="caglar_corumlu" type="radio" class="btnGr"></span>
                                                 </div>
                                             </label>
-                                            <label for="xiaomi" class="col-md-3 col-sm-4">
+                                            <label for="erdal_ozyagcilar" class="col-md-3 col-sm-4">
                                                 <div class="quiz_block_body_list_item_content_block" data-class=".group_1" data-id="#erdal_ozyagcilar">
                                                     <img src="img/candidates/kultur_sanat/tiyatro/erdal_ozyagcilar.png" alt="erdal_ozyagcilar">
                                                     <span>Erdal Özyağcılar<input name="tiyatro" value="erdal_ozyagcilar" id="erdal_ozyagcilar" type="radio" class="btnGr"></span>
                                                 </div>
                                             </label>
-                                            <label for="xiaomi" class="col-md-3 col-sm-4">
+                                            <label for="genco_erkal" class="col-md-3 col-sm-4">
                                                 <div class="quiz_block_body_list_item_content_block" data-class=".group_1" data-id="#genco_erkal">
                                                     <img src="img/candidates/kultur_sanat/tiyatro/genco_erkal.png" alt="genco_erkal">
                                                     <span>Genco Erkal<input name="tiyatro" value="genco_erkal" id="genco_erkal" type="radio" class="btnGr"></span>
                                                 </div>
                                             </label>
-                                            <label for="xiaomi" class="col-md-3 col-sm-4">
+                                            <label for="mahseri_cumbus" class="col-md-3 col-sm-4">
                                                 <div class="quiz_block_body_list_item_content_block" data-class=".group_1" data-id="#mahseri_cumbus">
                                                     <img src="img/candidates/kultur_sanat/tiyatro/mahseri_cumbus.png" alt="mahseri_cumbus">
                                                     <span>Mahşer-i Cümbüs<input name="tiyatro" value="mahseri_cumbus" id="mahseri_cumbus" type="radio" class="btnGr"></span>
                                                 </div>
                                             </label>
-                                            <label for="xiaomi" class="col-md-3 col-sm-4">
+                                            <label for="yildiray_sahinler" class="col-md-3 col-sm-4">
                                                 <div class="quiz_block_body_list_item_content_block" data-class=".group_1" data-id="#yildiray_sahinler">
                                                     <img src="img/candidates/kultur_sanat/tiyatro/yildiray_sahinler.png" alt="yildiray_sahinler">
                                                     <span>Yıldıray Şahinler<input name="tiyatro" value="yildiray_sahinler" id="yildiray_sahinler" type="radio" class="btnGr"></span>

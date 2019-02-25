@@ -1,4 +1,3 @@
-
 var sidebarVisible = false;
 var currentPageID = "#tm-section-1";
 
@@ -6,7 +5,7 @@ var currentPageID = "#tm-section-1";
 function setupCarousel() {
     console.log('setup carousel');
     // If current page isn't Carousel page, don't do anything.
-    if($('#tm-section-2').css('display') !== "none") {
+    if ($('#tm-section-2').css('display') !== "none") {
         var slider = $('.tm-img-slider');
         var windowWidth = $(window).width();
 
@@ -14,23 +13,21 @@ function setupCarousel() {
             slider.slick('destroy');
         }
 
-        if(windowWidth < 640) {
+        if (windowWidth < 640) {
             slider.slick({
                 dots: true,
                 infinite: true,
                 slidesToShow: 1,
                 slidesToScroll: 1
             });
-        }
-        else if(windowWidth < 992) {
+        } else if (windowWidth < 992) {
             slider.slick({
                 dots: true,
                 infinite: true,
                 slidesToShow: 2,
                 slidesToScroll: 1
             });
-        }
-        else {
+        } else {
             // Slick carousel
             slider.slick({
                 dots: true,
@@ -44,7 +41,9 @@ function setupCarousel() {
         $('.tm-img-slider').magnificPopup({
             delegate: 'a', // child items selector, by clicking on it popup will open
             type: 'image',
-            gallery: {enabled:true}
+            gallery: {
+                enabled: true
+            }
             // other options
         });
     }
@@ -53,7 +52,7 @@ function setupCarousel() {
 // Setup Nav
 function setupNav() {
     // Add Event Listener to each Nav item
-    $(".tm-main-nav a").click(function(e){
+    $(".tm-main-nav a").click(function (e) {
         e.preventDefault();
 
         var currentNavItem = $(this);
@@ -86,7 +85,7 @@ function changePage(currentNavItem) {
 // Setup Nav Toggle Button
 function setupNavToggle() {
 
-    $("#tmMainNavToggle").on("click", function(){
+    $("#tmMainNavToggle").on("click", function () {
         $(".sidebar").toggleClass("show");
     });
 }
@@ -97,18 +96,17 @@ function setupFooter() {
 
     var padding = 100;
     var footerPadding = 40;
-    var mainContent = $("section"+currentPageID);
+    var mainContent = $("section" + currentPageID);
     var mainContentHeight = mainContent.outerHeight(true);
     var footer = $(".footer-link");
     var footerHeight = footer.outerHeight(true);
     var totalPageHeight = mainContentHeight + footerHeight + footerPadding + padding;
     var windowHeight = $(window).height();
 
-    if(totalPageHeight > windowHeight){
+    if (totalPageHeight > windowHeight) {
         $(".tm-content").css("margin-bottom", footerHeight + footerPadding + "px");
         footer.css("bottom", footerHeight + "px");
-    }
-    else {
+    } else {
         $(".tm-content").css("margin-bottom", "0");
         footer.css("bottom", "20px");
     }
@@ -116,10 +114,10 @@ function setupFooter() {
 
 
 // Everything is loaded including images.
-$(window).on("load", function(){
+$(window).on("load", function () {
 
     // Render the page on modern browser only.
-    if(renderPage) {
+    if (renderPage) {
         // Remove loader
         $('body').addClass('loaded');
 
@@ -131,9 +129,9 @@ $(window).on("load", function(){
         // Nav item ID is then used to access and trigger click on the corresponding nav item
         var linkToAnotherPage = $("a.tm-btn[data-nav-link]");
 
-        if(linkToAnotherPage != null) {
+        if (linkToAnotherPage != null) {
 
-            linkToAnotherPage.on("click", function(){
+            linkToAnotherPage.on("click", function () {
                 var navItemToHighlight = linkToAnotherPage.data("navLink");
                 $("a" + navItemToHighlight).click();
             });
@@ -147,7 +145,9 @@ $(window).on("load", function(){
         // Set up background first page
         var bgImg = $("#tmNavLink1").data("bgImg");
 
-        $.backstretch("img/" + bgImg, {fade: 500});
+        $.backstretch("img/" + bgImg, {
+            fade: 500
+        });
 
         // Setup Carousel, Nav, and Nav Toggle
         setupCarousel();
@@ -156,7 +156,7 @@ $(window).on("load", function(){
         setupFooter();
 
         // Resize Carousel upon window resize
-        $(window).resize(function() {
+        $(window).resize(function () {
             setupCarousel();
             setupFooter();
         });
@@ -164,7 +164,7 @@ $(window).on("load", function(){
 });
 
 $(document).ready(function () {
-
+    var postData = {};
     //setup all carousel when collapse clicked
     $("[data-toggle=collapse]").on('click', function () {
         setupCarousel();
@@ -183,7 +183,17 @@ $(document).ready(function () {
 
     $(".quiz_block_body_list_item_content").find("label").on('click', function (e) {
         e.preventDefault();
-        console.log(this, 'clicked');
+
+        var dataAttr = $(this).attr("for");
+        var inputData = $('input[value=' + dataAttr + ']');
+        var key = $(inputData).attr('name');
+        postData[key] = $(this).find('span').text().trim();
+        console.log(postData);
+        // for get count of object
+        // Object.keys(postData).length); 
+
+
+
         $(".quiz_block_body_list_item_content_block").removeClass("quiz_block_body_list_item_content_block_checked");
         $(this).find(".quiz_block_body_list_item_content_block").addClass("quiz_block_body_list_item_content_block_checked")
     })
@@ -196,16 +206,16 @@ $(".page").hide();
 $("#page-1").show();
 var pageCounter = 1;
 
-$(".next-button").on("click",function(){
-    if (pageCounter !== 3){
-        pageCounter ++;
+$(".next-button").on("click", function () {
+    if (pageCounter !== 3) {
+        pageCounter++;
         pageSwicher(pageCounter);
     }
 });
 
-$(".pre-button").on("click",function(){
-    if (pageCounter !== 1){
-        pageCounter --;
+$(".pre-button").on("click", function () {
+    if (pageCounter !== 1) {
+        pageCounter--;
         pageSwicher(pageCounter);
     }
 });
