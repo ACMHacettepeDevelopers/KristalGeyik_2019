@@ -226,27 +226,32 @@
                 pageCounter++;
                 pageSwicher(pageCounter);
             } else {
-                if (pageCounter === 3 && Object.keys(postData).length >= 26) {
-                    var recapToken = $('.g-recap').serialize();
-                    if (recapToken.length > "g-recaptcha-response=".length) {
-                        $.ajax({
-                            type: "POST",
-                            url: "./send_data.php",
-                            data: {
-                                name: "<?php echo "Username" ?>",
-                                mail: "<?php echo "User" ?>",
-                                result: JSON.stringify(postData) + ",\n"
-                            },
-                            success: function (data) {
-                                alert('Gönderiminiz Kaydedildi. Teşekkürler.');
-                                window.location = "index.php";
-                            }
-                        });
+                if(localStorage.getItem("savedUser")){
+                    alert('Birden fazla oy Kullanamazsınız!');
+                }else{
+                    if (pageCounter === 3 && Object.keys(postData).length >= 26) {
+                        var recapToken = $('.g-recap').serialize();
+                        if (recapToken.length > "g-recaptcha-response=".length) {
+                            $.ajax({
+                                type: "POST",
+                                url: "./send_data.php",
+                                data: {
+                                    name: "<?php echo "Username" ?>",
+                                    mail: "<?php echo "User" ?>",
+                                    result: JSON.stringify(postData) + ",\n"
+                                },
+                                success: function (data) {
+                                    alert('Gönderiminiz Kaydedildi. Teşekkürler.');
+                                    window.location = "index.php";
+                                }
+                            });
+                            localStorage.setItem("savedUser", "true");
+                        }
+                    } else {
+                        alert('Lütfen Eksiksiz Seçim Yapınız!');
                     }
-
-                } else {
-                    alert('Lütfen Eksiksiz Seçim Yapınız!');
                 }
+                
             }
             initializeSubmitButton(pageCounter);
         });
