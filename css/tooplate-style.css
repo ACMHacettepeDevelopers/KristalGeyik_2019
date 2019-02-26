@@ -71,6 +71,10 @@ p:last-child {
     margin-bottom: 0;
 }
 
+li {
+    list-style: none;
+}
+
 /*Main End*/
 
 
@@ -84,6 +88,12 @@ p:last-child {
     background: url("../img/brand.png") no-repeat;
     -webkit-background-size: contain;
     background-size: contain;
+}
+
+@media screen and (max-width: 450px) {
+    #brand-icon {
+        height: 200px;
+    }
 }
 
 /*Section -1 End*/

@@ -175,7 +175,7 @@
             var postLenght = Object.keys(postData).length;
             if (postLenght < 26) {
                 $("#tm-section-4 > div > div.container > span").remove();
-                $("#tm-section-4 > div > div.container").append("<span>Lütfen Bütün Kategorilerden Seçim Yapınız! Tamamlanma : " + postLenght + " / 25</span>");
+                $("#tm-section-4 > div > div.container").append("<span>Lütfen Bütün Kategorilerden Seçim Yapınız! Tamamlanma : " + postLenght + " / 26</span>");
             } else {
                 $('form').show();
                 $("#tm-section-4 > div > div.container > span").remove();
@@ -265,5 +265,8 @@
             $("#page-" + pageCounter).show();
         }
 
+        $('#tm-section-1>div>header>h1').on('click', function(){
+            $('#tmMainNav > ul > li:nth-child(6) > a').click();
+        });
     }); 
 </script>

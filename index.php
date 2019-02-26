@@ -72,17 +72,18 @@
                                 <span>2. Kristal Geyik Ödülleri</span>
                             </a>
                         </li>
-                        <li>
-                            <a href="#intro" id="tmNavLink0" class="scrolly" data-bg-img="constructive_bg_01.jpg" data-page="#tm-section-0">
-                                <i class="fas fa-book tm-nav-fa-icon"></i>
-                                <span>Sponsorlarımız</span>
-                            </a>
-                        </li>
+                        
 
                         <li>
                             <a href="#products" id="tmNavLink2" class="scrolly" data-bg-img="constructive_bg_01.jpg" data-page="#tm-section-2" data-page-type="carousel">
                                 <i class="fas fa-map tm-nav-fa-icon"></i>
                                 <span>1. Kristal Geyik Ödülleri</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#intro" id="tmNavLink0" class="scrolly" data-bg-img="constructive_bg_01.jpg" data-page="#tm-section-0">
+                                <i class="fas fa-book tm-nav-fa-icon"></i>
+                                <span>Sponsorlarımız</span>
                             </a>
                         </li>
                         <li>
@@ -116,11 +117,8 @@
                     <!--<header class="mb-4"><h1 class="tm-text-shadow">Kristal Geyik 2019</h1></header>-->
                     <header class="mb-4">
 
-                        <div id="brand-icon">
-
-
-
-                        </div>
+                        <div id="brand-icon"></div>
+                        <h1>OYLAMA BAŞLADI<br>HEMEN OY VER</h1>
                     </header>
                     <!--<p class="mb-5 tm-font-big">Aenean fermentum vestibulum ipsum, ut pretium erat sodales sodales. Pellentesque quis orci vitae dui commodo sodales et ut quam. Etiam vitae egestas purus, ut malesuada enim.</p>-->
                     <!--<a href="#" class="btn tm-btn tm-font-big" data-nav-link="#tmNavLink2">Continue...</a>-->
@@ -202,7 +200,7 @@
             <!-- section 2 -->
             <section id="tm-section-2" class="tm-section tm-section-carousel">
                 <div>
-                    <header class="mb-4"><h2 class="tm-text-shadow">2018'de Kristal Geyik</h2></header>
+                    <header class="mb-4"><h2 class="tm-text-shadow">1. Kristal Geyik Ödülleri</h2></header>
                     <div id="accordion">
                         <div class="card">
                             <div class="card-header" id="headingOne">
