@@ -173,9 +173,9 @@
 
         function checkPostIsFull(postData) {
             var postLenght = Object.keys(postData).length;
-            if (postLenght < 26) {
+            if (postLenght < 25) {
                 $("#tm-section-4 > div > div.container > span").remove();
-                $("#tm-section-4 > div > div.container").append("<span>Lütfen Bütün Kategorilerden Seçim Yapınız! Tamamlanma : " + postLenght + " / 26</span>");
+                $("#tm-section-4 > div > div.container").append("<span>Lütfen Bütün Kategorilerden Seçim Yapınız! Tamamlanma : " + postLenght + " / 25</span>");
             } else {
                 $('form').show();
                 $("#tm-section-4 > div > div.container > span").remove();
@@ -229,7 +229,7 @@
                 if(localStorage.getItem("savedUser")){
                     alert('Birden fazla oy Kullanamazsınız!');
                 }else{
-                    if (pageCounter === 3 && Object.keys(postData).length >= 26) {
+                    if (pageCounter === 3 && Object.keys(postData).length >= 25) {
                         var recapToken = $('.g-recap').serialize();
                         if (recapToken.length > "g-recaptcha-response=".length) {
                             $.ajax({

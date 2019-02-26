@@ -607,7 +607,7 @@
                                             <label for="basf" class="col-md-3 col-sm-4">
                                                 <div class="quiz_block_body_list_item_content_block" data-class=".group_1" data-id="#basf">
                                                     <img src="img/candidates/muhendislik/kimya/basf.png" alt="basf">
-                                                    <span>Borçelik<input name="kimya" value="basf" id="basf" type="radio" class="btnGr"></span>
+                                                    <span>BASF<input name="kimya" value="basf" id="basf" type="radio" class="btnGr"></span>
                                                 </div>
                                             </label>
                                             <label for="borcelik" class="col-md-3 col-sm-4">
