@@ -168,23 +168,23 @@ form {
 
 /*section3 - end */
 /*section4 - start */
-#tm-section-4>div>div.container {
+.survey-section>div>div.container {
   position: relative;
   max-width: 100% !important;
 
 }
 
-#tm-section-4>div>div.container .next-button {
+.survey-section>div>div.container .next-button {
   float: right;
 
 }
 
-#tm-section-4>div>div.container .pre-button {
+.survey-section>div>div.container .pre-button {
   float: left;
 
 }
 
-#tm-section-4>div>div.container>span {
+.survey-section>div>div.container>span {
   padding-left: 20px;
   color: #cfcfcf;
   position: absolute;
@@ -192,7 +192,7 @@ form {
   left: 0;
 }
 
-#tm-section-4 .tm-contact-box-pad {
+.survey-section .tm-contact-box-pad {
   border-radius: 8px;
   background-color: rgba(155, 50, 50, 0.45);
   border: 1px solid #fff;
