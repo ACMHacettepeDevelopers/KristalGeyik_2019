@@ -269,7 +269,7 @@
                                             </a>
                                             <a href="img/winners/kultur_sanat/hazer.png" class="tm-slider-img">
                                                 <img src="img/winners/kultur_sanat/hazer.png" alt="Image" class="img-fluid">
-                                                <p>Hazer</p>
+                                                <p>Hazer Ergüçlü</p>
                                             </a>
                                             <a href="img/winners/kultur_sanat/kalben.png" class="tm-slider-img">
                                                 <img src="img/winners/kultur_sanat/kalben.png" alt="Image" class="img-fluid">
@@ -314,7 +314,7 @@
                                             </a>
                                             <a href="img/winners/muhendislik/enerji_sa.png" class="tm-slider-img">
                                                 <img src="img/winners/muhendislik/enerji_sa.png" alt="Image" class="img-fluid">
-                                                <p>Enerji SA</p>
+                                                <p>EnerjiSA</p>
                                             </a>
                                             <a href="img/winners/muhendislik/erdemir.png" class="tm-slider-img">
                                                 <img src="img/winners/muhendislik/erdemir.png" alt="Image" class="img-fluid">
@@ -322,7 +322,7 @@
                                             </a>
                                             <a href="img/winners/muhendislik/halk_ekmek.png" class="tm-slider-img">
                                                 <img src="img/winners/muhendislik/halk_ekmek.png" alt="Image" class="img-fluid">
-                                                <p>Halk Ekmek</p>
+                                                <p>Ankara Halk Ekmek</p>
                                             </a>
                                             <a href="img/winners/muhendislik/tai.png" class="tm-slider-img">
                                                 <img src="img/winners/muhendislik/tai.png" alt="Image" class="img-fluid">

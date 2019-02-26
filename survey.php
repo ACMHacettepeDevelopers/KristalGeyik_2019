@@ -169,9 +169,6 @@
                                         <span>2. Kristal Geyik Ödülleri</span>
                                     </a>
                                 </li>
-                                
-
-                                
                             </ul>
                         </nav>
                     </div>
@@ -282,7 +279,7 @@
                                     <label for="halk_ekmek" class="col-md-3 col-sm-4">
                                         <div class="quiz_block_body_list_item_content_block" data-class=".group_1" data-id="#halk_ekmek">
                                             <img src="img/candidates/muhendislik/gida/halk_ekmek.png" alt="halk_ekmek">
-                                            <span>Halk Ekmek<input name="gida" value="halk_ekmek" id="halk_ekmek" type="radio" class="btnGr"></span>
+                                            <span>Ankara Halk Ekmek<input name="gida" value="halk_ekmek" id="halk_ekmek" type="radio" class="btnGr"></span>
                                         </div>
                                     </label>
                                     <label for="nestle" class="col-md-3 col-sm-4">
@@ -433,7 +430,7 @@
                                     <label for="mild_mania" class="col-md-3 col-sm-4">
                                         <div class="quiz_block_body_list_item_content_block" data-class=".group_1" data-id="#mild_mania">
                                             <img src="img/candidates/muhendislik/oyun/mild_mania.png" alt="mild_mania">
-                                            <span>Mild Mania <input name="game" value="mild_mania" id="mild_mania" type="radio" class="btnGr"></span>
+                                            <span>MildMania <input name="game" value="mild_mania" id="mild_mania" type="radio" class="btnGr"></span>
                                         </div>
                                     </label>
                                     <label for="panteon" class="col-md-3 col-sm-4">
@@ -465,7 +462,7 @@
                                     <label for="armada" class="col-md-3 col-sm-4">
                                         <div class="quiz_block_body_list_item_content_block" data-class=".group_1" data-id="#armada">
                                             <img src="img/candidates/muhendislik/yazilim/armada.png" alt="armada">
-                                            <span>Armada <input name="software" value="armada" id="armada" type="radio" class="btnGr"></span>
+                                            <span>Armada Yazılım <input name="software" value="armada" id="armada" type="radio" class="btnGr"></span>
                                         </div>
                                     </label>
                                     <label for="bilisim" class="col-md-3 col-sm-4">
@@ -654,6 +651,12 @@
                                             <span>Hazal Kaya<input name="kadin_televizyon_oyuncusu" value="hazal_kaya" id="hazal_kaya" type="radio" class="btnGr"></span>
                                         </div>
                                     </label>
+                                    <label for="hande_ercel" class="col-md-3 col-sm-4">
+                                        <div class="quiz_block_body_list_item_content_block" data-class=".group_1" data-id="#hande_ercel">
+                                            <img src="img/candidates/kultur_sanat/kadin_televizyon_oyuncusu/hande_ercel.png" alt="hande_ercel">
+                                            <span>Hande Erçel<input name="kadin_televizyon_oyuncusu" value="hande_ercel" id="hande_ercel" type="radio" class="btnGr"></span>
+                                        </div>
+                                    </label>
                                     <label for="sedef_avci" class="col-md-3 col-sm-4">
                                         <div class="quiz_block_body_list_item_content_block" data-class=".group_1" data-id="#sedef_avci">
                                             <img src="img/candidates/kultur_sanat/kadin_televizyon_oyuncusu/sedef_avci.png" alt="sedef_avci">
@@ -677,6 +680,12 @@
                                         <div class="quiz_block_body_list_item_content_block" data-class=".group_1" data-id="#can_bonomo">
                                             <img src="img/candidates/kultur_sanat/muzik/can_bonomo.png" alt="can_bonomo">
                                             <span>Can Bonomo<input name="muzik" value="can_bonomo" id="can_bonomo" type="radio" class="btnGr"></span>
+                                        </div>
+                                    </label>
+                                    <label for="can_gox" class="col-md-3 col-sm-4">
+                                        <div class="quiz_block_body_list_item_content_block" data-class=".group_1" data-id="#can_gox">
+                                            <img src="img/candidates/kultur_sanat/muzik/can_gox.png" alt="can_gox">
+                                            <span>Can Gox<input name="muzik" value="can_gox" id="can_gox" type="radio" class="btnGr"></span>
                                         </div>
                                     </label>
                                     <label for="deeperise" class="col-md-3 col-sm-4">
@@ -964,7 +973,7 @@
                                     <label for="fibabanka" class="col-md-3 col-sm-4">
                                         <div class="quiz_block_body_list_item_content_block" data-class=".group_1" data-id="#fibabanka">
                                             <img src="img/candidates/yonetim_finans/bankacilik/fibabanka.png" alt="fibabanka">
-                                            <span>Fiba Banka<input name="bankacilik" value="fibabanka" id="fibabanka" type="radio" class="btnGr"></span>
+                                            <span>Fibabanka<input name="bankacilik" value="fibabanka" id="fibabanka" type="radio" class="btnGr"></span>
                                         </div>
                                     </label>
                                     <label for="garanti" class="col-md-3 col-sm-4">
@@ -1040,7 +1049,7 @@
                                     <label for="weglobal" class="col-md-3 col-sm-4">
                                         <div class="quiz_block_body_list_item_content_block" data-class=".group_1" data-id="#weglobal">
                                             <img src="img/candidates/yonetim_finans/denetim_danismanlik/weglobal.png" alt="weglobal">
-                                            <span>Weglobal<input name="denetim_danismanlik" value="weglobal" id="weglobal" type="radio" class="btnGr"></span>
+                                            <span>WEglobal<input name="denetim_danismanlik" value="weglobal" id="weglobal" type="radio" class="btnGr"></span>
                                         </div>
                                     </label>
                                 </div>
@@ -1102,6 +1111,99 @@
                                 </div>
                                 <hr>
                             </li>
+                            <li class="quiz_block_body_list_item">
+                                <h1 class="quiz_block_body_list_item_title">
+                                    Girişimcilik
+                                </h1>
+                                <div class="quiz_block_body_list_item_content row">
+                                    <label for="apps_girisim" class="col-md-3 col-sm-4">
+                                        <div class="quiz_block_body_list_item_content_block" data-class=".group_1" data-id="#apps_girisim">
+                                            <img src="img/candidates/yonetim_finans/girisimcilik/apps.png" alt="apps_girisim">
+                                            <span>Apps<input name="girisimcilik" value="apps_girisim" id="apps_girisim" type="radio" class="btnGr"></span>
+                                        </div>
+                                    </label>
+                                    <label for="biletall_girisim" class="col-md-3 col-sm-4">
+                                        <div class="quiz_block_body_list_item_content_block" data-class=".group_1" data-id="#biletall_girisim">
+                                            <img src="img/candidates/yonetim_finans/girisimcilik/biletall.png" alt="biletall_girisim">
+                                            <span>Biletall<input name="girisimcilik" value="biletall_girisim" id="biletall_girisim" type="radio" class="btnGr"></span>
+                                        </div>
+                                    </label>
+                                    <label for="dreamstalk_girisim" class="col-md-3 col-sm-4">
+                                        <div class="quiz_block_body_list_item_content_block" data-class=".group_1" data-id="#dreamstalk_girisim">
+                                            <img src="img/candidates/yonetim_finans/girisimcilik/dreamstalk.png" alt="dreamstalk_girisim">
+                                            <span>Dreamstalk<input name="girisimcilik" value="dreamstalk_girisim" id="dreamstalk_girisim" type="radio" class="btnGr"></span>
+                                        </div>
+                                    </label>
+                                    <label for="egirisim" class="col-md-3 col-sm-4">
+                                        <div class="quiz_block_body_list_item_content_block" data-class=".group_1" data-id="#egirisim">
+                                            <img src="img/candidates/yonetim_finans/girisimcilik/egirisim.png" alt="egirisim">
+                                            <span>Egirişim<input name="girisimcilik" value="egirisim" id="egirisim" type="radio" class="btnGr"></span>
+                                        </div>
+                                    </label>
+                                    <label for="etohum" class="col-md-3 col-sm-4">
+                                        <div class="quiz_block_body_list_item_content_block" data-class=".group_1" data-id="#etohum">
+                                            <img src="img/candidates/yonetim_finans/girisimcilik/etohum.png" alt="etohum">
+                                            <span>Etohum<input name="girisimcilik" value="etohum" id="etohum" type="radio" class="btnGr"></span>
+                                        </div>
+                                    </label>
+                                    <label for="fazla_gida" class="col-md-3 col-sm-4">
+                                        <div class="quiz_block_body_list_item_content_block" data-class=".group_1" data-id="#fazla_gida">
+                                            <img src="img/candidates/yonetim_finans/girisimcilik/fazla_gida.png" alt="fazla_gida">
+                                            <span>Fazla Gıda<input name="girisimcilik" value="fazla_gida" id="fazla_gida" type="radio" class="btnGr"></span>
+                                        </div>
+                                    </label>
+                                    <label for="getir" class="col-md-3 col-sm-4">
+                                        <div class="quiz_block_body_list_item_content_block" data-class=".group_1" data-id="#getir">
+                                            <img src="img/candidates/yonetim_finans/girisimcilik/getir.png" alt="getir">
+                                            <span>Getir<input name="girisimcilik" value="getir" id="getir" type="radio" class="btnGr"></span>
+                                        </div>
+                                    </label>
+                                    <label for="hadi" class="col-md-3 col-sm-4">
+                                        <div class="quiz_block_body_list_item_content_block" data-class=".group_1" data-id="#hadi">
+                                            <img src="img/candidates/yonetim_finans/girisimcilik/hadi.png" alt="hadi">
+                                            <span>Hadi<input name="girisimcilik" value="hadi" id="hadi" type="radio" class="btnGr"></span>
+                                        </div>
+                                    </label>
+                                    <label for="isinisev" class="col-md-3 col-sm-4">
+                                        <div class="quiz_block_body_list_item_content_block" data-class=".group_1" data-id="#isinisev">
+                                            <img src="img/candidates/yonetim_finans/girisimcilik/isinisev.png" alt="isinisev">
+                                            <span>İşinisev<input name="girisimcilik" value="isinisev" id="isinisev" type="radio" class="btnGr"></span>
+                                        </div>
+                                    </label>
+                                    <label for="iyzico" class="col-md-3 col-sm-4">
+                                        <div class="quiz_block_body_list_item_content_block" data-class=".group_1" data-id="#iyzico">
+                                            <img src="img/candidates/yonetim_finans/girisimcilik/iyzico.png" alt="iyzico">
+                                            <span>İyzico<input name="girisimcilik" value="iyzico" id="iyzico" type="radio" class="btnGr"></span>
+                                        </div>
+                                    </label>
+                                    <label for="paket_taxi" class="col-md-3 col-sm-4">
+                                        <div class="quiz_block_body_list_item_content_block" data-class=".group_1" data-id="#paket_taxi">
+                                            <img src="img/candidates/yonetim_finans/girisimcilik/paket_taxi.png" alt="paket_taxi">
+                                            <span>Paket Taxi<input name="girisimcilik" value="paket_taxi" id="paket_taxi" type="radio" class="btnGr"></span>
+                                        </div>
+                                    </label>
+                                    <label for="sinemia" class="col-md-3 col-sm-4">
+                                        <div class="quiz_block_body_list_item_content_block" data-class=".group_1" data-id="#sinemia">
+                                            <img src="img/candidates/yonetim_finans/girisimcilik/sinemia.png" alt="sinemia">
+                                            <span>Sinemia<input name="girisimcilik" value="sinemia" id="sinemia" type="radio" class="btnGr"></span>
+                                        </div>
+                                    </label>
+                                    <label for="social_makerlab" class="col-md-3 col-sm-4">
+                                        <div class="quiz_block_body_list_item_content_block" data-class=".group_1" data-id="#social_makerlab">
+                                            <img src="img/candidates/yonetim_finans/girisimcilik/social_makerlab.png" alt="social_makerlab">
+                                            <span>Social MakerLab<input name="girisimcilik" value="social_makerlab" id="social_makerlab" type="radio" class="btnGr"></span>
+                                        </div>
+                                    </label>
+                                    <label for="youthall" class="col-md-3 col-sm-4">
+                                        <div class="quiz_block_body_list_item_content_block" data-class=".group_1" data-id="#youthall">
+                                            <img src="img/candidates/yonetim_finans/girisimcilik/youthall.png" alt="youthall">
+                                            <span>Youthall<input name="girisimcilik" value="youthall" id="youthall" type="radio" class="btnGr"></span>
+                                        </div>
+                                    </label>
+                                </div>
+                                <hr>
+                            </li>
+
                             <li class="quiz_block_body_list_item">
                                 <h1 class="quiz_block_body_list_item_title">
                                     Giyim
@@ -1225,7 +1327,7 @@
                                     <label for="oriflame" class="col-md-3 col-sm-4">
                                         <div class="quiz_block_body_list_item_content_block" data-class=".group_1" data-id="#oriflame">
                                             <img src="img/candidates/yonetim_finans/kozmetik_kisisel_bakim/oriflame.png" alt="oriflame">
-                                            <span>Oriflame Sweden<input name="kozmetik_kisisel_bakim" value="oriflame" id="oriflame" type="radio" class="btnGr"></span>
+                                            <span>Oriflame<input name="kozmetik_kisisel_bakim" value="oriflame" id="oriflame" type="radio" class="btnGr"></span>
                                         </div>
                                     </label>
                                     <label for="raen" class="col-md-3 col-sm-4">
@@ -1277,7 +1379,7 @@
                                     <label for="carrefoursa" class="col-md-3 col-sm-4">
                                         <div class="quiz_block_body_list_item_content_block" data-class=".group_1" data-id="#carrefoursa">
                                             <img src="img/candidates/yonetim_finans/pazarlama_reklam/carrefoursa.png" alt="carrefoursa">
-                                            <span>Carrefour SA<input name="pazarlama_reklam" value="carrefoursa" id="carrefoursa" type="radio" class="btnGr"></span>
+                                            <span>CarrefourSA<input name="pazarlama_reklam" value="carrefoursa" id="carrefoursa" type="radio" class="btnGr"></span>
                                         </div>
                                     </label>
                                     <label for="turna-pazarlama" class="col-md-3 col-sm-4">
