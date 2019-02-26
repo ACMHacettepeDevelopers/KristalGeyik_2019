@@ -163,8 +163,26 @@
         });
 
         var postData = {};
-        var pageCounter = 1;
+        var pageCounter = 0;
+
         $(document).ready(function () {
+
+
+            function validateEmail(email) {
+                var re = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+                return re.test(email);
+            }
+
+            function validateStudenId(id) {
+                var re = /^[0-9]{8}$/;
+                var reyl = /^N[0-9]{8}$/;
+
+                if(re.test(id) || reyl.test(id)){
+                    return (re.test(id) || reyl.test(id));
+                }
+                
+            }
+
             $('#tmMainNav > ul > li:nth-child(1)').on('click', function(){
                 if(window.location.pathname.indexOf('survey') !== -1){
                     window.location = "./index.php";
@@ -172,7 +190,7 @@
             })
             
 
-            $('form').hide();
+            $('form.g-recap').hide();
             //setup all carousel when collapse clicked
             $("[data-toggle=collapse]").on('click', function () {
                 setupCarousel();
@@ -184,7 +202,7 @@
                     $(".survey-section > div > div.container > span").remove();
                     $(".survey-section > div > div.container").append("<span>Lütfen Bütün Kategorilerden Seçim Yapınız! Tamamlanma : " + postLenght + " / 25</span>");
                 } else {
-                    $('form').show();
+                    $('form.g-recap').show();
                     $(".survey-section > div > div.container > span").remove();
 
                 }
@@ -211,7 +229,7 @@
             });
 
             $(".page").hide();
-            $("#page-1").show();
+            $("#page-0").show();
 
 
 
@@ -228,6 +246,26 @@
             initializeSubmitButton(pageCounter);
 
             $(".next-button").on("click", function () {
+                if(pageCounter === 0){
+                    var dataName = $('input[name="name"]').val();
+                    var dataId = $('input[name="student-id"]').val();
+                    var dataMail = $('input[name="mail"]').val();
+                    if(dataName.length === 0){
+                        alert('Lütfen Geçerli Ad Soyad Giriniz');
+                        return;
+                    }
+                    if(!validateStudenId(dataId)){
+                        alert('Lütfen Geçerli Bir Öğrenci Numarası Giriniz');
+                        return;
+                    }
+                    if(!validateEmail(dataMail)){
+                        alert('Lütfen Geçerli Bir E-posta Adresi Giriniz');
+                        return;
+                    }
+                    
+                    
+                    
+                }
                 if (pageCounter !== 3) {
                     $(window).scrollTop(0);
                     pageCounter++;
@@ -238,13 +276,19 @@
                     }else{
                         if (pageCounter === 3 && Object.keys(postData).length >= 25) {
                             var recapToken = $('.g-recap').serialize();
+
+                            var dataName = $('input[name="name"]').val();
+                            var dataId = $('input[name="student-id"]').val();
+                            var dataMail = $('input[name="mail"]').val();
+
                             if (recapToken.length > "g-recaptcha-response=".length) {
                                 $.ajax({
                                     type: "POST",
                                     url: "./send_data.php",
                                     data: {
-                                        name: "<?php echo "Username" ?>",
-                                        mail: "<?php echo "User" ?>",
+                                        name: dataName,
+                                        studentId: dataId,
+                                        mail: dataMail,
                                         result: JSON.stringify(postData) + ",\n"
                                     },
                                     success: function (data) {
@@ -265,7 +309,7 @@
 
             $(".pre-button").on("click", function () {
                 $(window).scrollTop(0);
-                if (pageCounter !== 1) {
+                if (pageCounter !== 0) {
                     pageCounter--;
                     pageSwicher(pageCounter);
                 }
