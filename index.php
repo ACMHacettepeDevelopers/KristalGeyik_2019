@@ -28,17 +28,16 @@
     </script>
      <script src="https://www.google.com/recaptcha/api.js" async defer></script>
      <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-116317084-1"></script>
+     <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-116317084-2"></script>
     <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
 
-        gtag('config', 'UA-116317084-1');
+    gtag('config', 'UA-116317084-2');
     </script>
     
-
-
 </head>
 
 <body>
@@ -102,7 +101,7 @@
                 </nav>
             </div>
             <footer class="footer-link">
-                <p class="tm-copyright-text">Copyright &copy; 2019 Developed by <a href="https://linkedin.com/in/k-berkan-sezer-316763148/">Berkan Sezer</a></p>
+                <p class="tm-copyright-text">Copyright &copy; 2019 Developed by <a href="https://linkedin.com/in/k-berkan-sezer-316763148/" target="_blank">Berkan Sezer</a></p>
             </footer>
         </div>
 
@@ -110,14 +109,13 @@
 
             <!-- section 0 -->
 
-
-            <!-- section 1 -->
             <section id="tm-section-1" class="tm-section">
                 <div class="ml-auto">
                     <!--<header class="mb-4"><h1 class="tm-text-shadow">Kristal Geyik 2019</h1></header>-->
                     <header class="mb-4">
-
+                        <div id="crystal-mobile-icon"></div>
                         <div id="brand-icon"></div>
+                        <h1>Oylama Tarihi<br>25 Şubat - 4 Mart</h1>
                         <h1>OYLAMA BAŞLADI<br>HEMEN OY VER</h1>
                     </header>
                     <!--<p class="mb-5 tm-font-big">Aenean fermentum vestibulum ipsum, ut pretium erat sodales sodales. Pellentesque quis orci vitae dui commodo sodales et ut quam. Etiam vitae egestas purus, ut malesuada enim.</p>-->

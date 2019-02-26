@@ -92,8 +92,40 @@ li {
 
 @media screen and (max-width: 450px) {
     #brand-icon {
-        height: 200px;
+        height: 100px;
+        background-position: center;
+        margin: 0 auto;
     }
+    #crystal-mobile-icon{
+        margin: 0 auto;
+        background: url("../img/logo.png");
+        width: 100%;
+        height: 100px;
+        max-width: 290px;
+        max-height: 100px;
+        -webkit-background-size: contain;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    #tm-section-1>div>header>h1 {
+        font-size: 21px;
+        line-height: 40px;
+        margin-top: 15px !important;
+        margin-bottom: 15px !important;
+        border: 2px solid #fff !important;
+        width: 80% !important;
+        /* text-align: center;
+        margin: 0 auto;
+        width: 70%;
+        line-height: 55px;
+        
+        border-radius: 8px;
+        background-color: rgba(0, 0, 0, 0.48);
+        cursor: pointer; */
+    }
+
 }
 
 /*Section -1 End*/

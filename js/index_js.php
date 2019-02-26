@@ -1,4 +1,9 @@
+    
+    <script src="//www.google-analytics.com/analytics.js"></script>
     <script type = "text/javascript">
+        var tracker = ga.create('UA-116317084-2', 'kristalgeyikodulleri.com');
+
+
         var sidebarVisible = false;
         var currentPageID = "#tm-section-1";
 
@@ -293,6 +298,7 @@
                                     },
                                     success: function (data) {
                                         alert('Gönderiminiz Kaydedildi. Teşekkürler.');
+                                        tracker.send('event', 'Submit', 'Submit', 'Submit-Data');
                                         window.location = "index.php";
                                     }
                                 });
@@ -327,9 +333,18 @@
 
 
             $('#tmMainNav > ul > li:nth-child(6) > a').on('click', function(){
+                tracker.send('event', 'Sidebar', 'Click', 'Survey');
                 if(window.location.pathname.indexOf('survey') === -1){
                     window.location = "./survey.php";
                 }
             })
+            $(".footer-link").on('click', function(e){
+                e.preventDefault();
+                tracker.send('event', 'Footer', 'Click', 'Berkan-Sezer');
+                window.open("https://linkedin.com/in/k-berkan-sezer-316763148/", '_blank')
+            });
+            $("#tmMainNav li").on('click', function(){
+                tracker.send('event', 'Sidebar', 'Click', $(this).find('span').text().lenght ? $(this).find('span').text() : "logo");
+            });
         }); 
     </script>

@@ -119,16 +119,15 @@
                 }
             </script>
             <script src="https://www.google.com/recaptcha/api.js" async defer></script>
-            <!-- Global site tag (gtag.js) - Google Analytics -->
-            <script async src="https://www.googletagmanager.com/gtag/js?id=UA-116317084-1"></script>
+            
+            <script async src="https://www.googletagmanager.com/gtag/js?id=UA-116317084-2"></script>
             <script>
                 window.dataLayer = window.dataLayer || [];
                 function gtag(){dataLayer.push(arguments);}
                 gtag('js', new Date());
 
-                gtag('config', 'UA-116317084-1');
+                gtag('config', 'UA-116317084-2');
             </script>
-            
 
 
         </head>
@@ -177,7 +176,7 @@
                         </nav>
                     </div>
                     <footer class="footer-link">
-                        <p class="tm-copyright-text">Copyright &copy; 2019 Developed by <a href="https://linkedin.com/in/k-berkan-sezer-316763148/">Berkan Sezer</a></p>
+                        <p class="tm-copyright-text">Copyright &copy; 2019 Developed by <a href="https://linkedin.com/in/k-berkan-sezer-316763148/" target="_blank">Berkan Sezer</a></p>
                     </footer>
                 </div>
 
