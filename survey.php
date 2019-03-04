@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
         <html lang="tr">
         <head>
             <meta charset="utf-8">
@@ -133,18 +133,18 @@
         </head>
 
         <body>
-        <!-- Loader -->
+        
         <div id="loader-wrapper">
             <div id="loader"></div>
             <div class="loader-section section-left"></div>
             <div class="loader-section section-right"></div>
         </div>
 
-        <!-- Page Content -->
+        
         <div class="container-fluid tm-main">
             <div class="row tm-main-row">
 
-                <!-- Sidebar -->
+                
                 <div id="tmSideBar" class="col-xl-3 col-lg-4 col-md-12 col-sm-12 sidebar" style="height:100% !important;">
 
                     <button id="tmMainNavToggle" class="menu-icon">&#9776;</button>
@@ -178,12 +178,6 @@
                 </div>
 
                 <div class="col-xl-9 col-lg-8 col-md-12 col-sm-12 tm-content">
-
-                    <!-- section 0 -->
-
-
-                    <!-- section 1 -->
-                    <!-- <section id="tm-section-1" class="tm-section"> -->
                     <section id="tm-section-1" class="tm-section survey-section">
 
         <div style="padding-bottom: 100px">
@@ -195,13 +189,6 @@
                     <p>E-posta Adresi<br><input type="mail" name="mail" id="" placeholder="E-posta Adresi"></p>
                 </form>
             </div>
-                <!-- <form action="" method="post" style="display:block;">
-                    <input type="text" name="name" id="" placeholder="Ad Soyad">
-                    <input type="number" name="student-id" id="" placeholder="Ögrenci Numarası">
-                    <input type="mail" name="mail" id="" placeholder="E-posta Adresi">
-                </form> -->
-            </div>
-            <!--page -1 start-->
             <div id="page-1" class="page">
                 <div class="row main-background position-relative" >
                     <h1>Mühendislik</h1>
@@ -508,9 +495,7 @@
                     </div>
                 </div>
             </div>
-            <!--page -1 end-->
-
-            <!--page -2 start-->
+           
             <div id="page-2" class="page">
                 <div class="row main-background position-relative" >
                     <h1>Kültür Sanat</h1>
@@ -958,8 +943,6 @@
                     </div>
                 </div>
             </div>
-            <!--page -2 end-->
-            <!--page -3 start-->
             <div id="page-3" class="page">
                 <div class="row main-background position-relative" >
                     <h1>Yönetim/Finans</h1>
@@ -1402,30 +1385,28 @@
                 <div class="g-recaptcha" data-sitekey="6Ldw4ZMUAAAAAL3twJ0b6xfOCgCn48z8CKF4Mr_X"></div>
 
             </form>
-            <!--page -3 end-->
 
             <div class="container">
                 <button class="button pre-button btn btn-info">GERİ</button>
                 <button class="button next-button btn btn-info">İLERİ</button>
             </div>
-            <!--page -3 end-->
         </div>
         </section>
-                </div>    <!-- .tm-content -->
-            </div>    <!-- row -->
+                </div>
+            </div>
         </div>
 
         <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
-        <!--<script type="text/javascript" src="js/bootstrap.min.js"></script>-->
+        
         <script src="js/bootstrap.min.js"></script>
 
         <script type="text/javascript" src="js/jquery.magnific-popup.min.js"></script>
         <script type="text/javascript" src="js/jquery.backstretch.min.js"></script>
-        <script type="text/javascript" src="slick/slick.min.js"></script> <!-- Slick Carousel -->
-        <!-- <script src="js/index.js"></script> -->
+        <script type="text/javascript" src="slick/slick.min.js"></script>
+        
         <?php
-include("js/index_js.php");
-?>
+        // include("js/index_js.php");
+        ?>
 
         </body>
-        </html>
+        </html> -->
