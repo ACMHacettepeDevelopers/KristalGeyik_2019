@@ -252,9 +252,9 @@
 
             $(".next-button").on("click", function () {
                 if(pageCounter === 0){
-                    var dataName = $('input[name="name"]').val();
-                    var dataId = $('input[name="student-id"]').val();
-                    var dataMail = $('input[name="mail"]').val();
+                    var dataName = $('input[name="name"]').val().trim();
+                    var dataId = $('input[name="student-id"]').val().trim();
+                    var dataMail = $('input[name="mail"]').val().trim();
                     if(dataName.length === 0){
                         alert('Lütfen Geçerli Ad Soyad Giriniz');
                         return;
@@ -327,16 +327,16 @@
                 $("#page-" + pageCounter).show();
             }
 
-            $('#tm-section-1>div>header>h1').on('click', function(){
-                $('#tmMainNav > ul > li:nth-child(6) > a').click();
-            });
+            // $('#tm-section-1>div>header>h1').on('click', function(){
+            //     $('#tmMainNav > ul > li:nth-child(6) > a').click();
+            // });
 
 
             $('#tmMainNav > ul > li:nth-child(6) > a').on('click', function(){
-                tracker.send('event', 'Sidebar', 'Click', 'Survey');
-                if(window.location.pathname.indexOf('survey') === -1){
-                    window.location = "./survey.php";
-                }
+                // tracker.send('event', 'Sidebar', 'Click', 'Survey');
+                // if(window.location.pathname.indexOf('survey') === -1){
+                //     window.location = "./survey.php";
+                // }
             })
             $(".footer-link").on('click', function(e){
                 e.preventDefault();

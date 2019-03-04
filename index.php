@@ -91,12 +91,12 @@
                                 <span>Hakkımızda</span>
                             </a>
                         </li>
-                        <li>
+                        <!-- <li>
                             <a href="./survey.php" class="scrolly" data-bg-img="constructive_bg_01.jpg" data-page="#tm-section-4">
                                 <i class="fas fa-comments tm-nav-fa-icon"></i>
                                 <span>Oy Ver</span>
                             </a>
-                        </li>
+                        </li> -->
                     </ul>
                 </nav>
             </div>
@@ -115,8 +115,8 @@
                     <header class="mb-4">
                         <div id="crystal-mobile-icon"></div>
                         <div id="brand-icon"></div>
-                        <h1>Oylama Tarihi<br>25 Şubat - 4 Mart</h1>
-                        <h1>OYLAMA BAŞLADI<br>HEMEN OY VER</h1>
+                        <h1>Oylama Sona Erdi!<br>İlginiz İçin Tesekkür Ederiz</h1>
+                        <h1>Sonuçlar en kısa zamanda<br>Açıklanacaktır</h1>
                     </header>
                     <!--<p class="mb-5 tm-font-big">Aenean fermentum vestibulum ipsum, ut pretium erat sodales sodales. Pellentesque quis orci vitae dui commodo sodales et ut quam. Etiam vitae egestas purus, ut malesuada enim.</p>-->
                     <!--<a href="#" class="btn tm-btn tm-font-big" data-nav-link="#tmNavLink2">Continue...</a>-->
